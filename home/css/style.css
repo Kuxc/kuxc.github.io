@@ -67,7 +67,7 @@ Main Components
   left: 0;
   height: 25vh;
   width: 100%;
-  background-image: url("https://s1.ax1x.com/2020/08/13/dpDba8.jpg"/*tpa=https://xcbk.ga/img/img-1-small.jpg*/);
+  background-image: url("../img/img-1-small.jpg"/*tpa=http://c.kankanvip.cn/img/img-1-small.jpg*/);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -77,35 +77,35 @@ Main Components
 }
 .projects-container li::before {
   /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-  content: 'https://s1.ax1x.com/2020/08/13/dpDba8.jpg';
+  content: 'img/img-1-small.jpg';
   display: none;
 }
 .projects-container li:nth-of-type(2) {
   top: 25vh;
 }
 .projects-container li:nth-of-type(2)::after {
-  background-image: url("https://s1.ax1x.com/2020/08/13/dpDqIS.gif"/*tpa=https://xcbk.ga/img/img-2-small.jpg*/);
+  background-image: url("../img/img-2-small.jpg"/*tpa=http://c.kankanvip.cn/img/img-2-small.jpg*/);
 }
 .projects-container li:nth-of-type(2)::before {
-  content: 'https://s1.ax1x.com/2020/08/13/dpDqIS.gif';
+  content: 'img/img-2-small.jpg';
 }
 .projects-container li:nth-of-type(3) {
   top: 50vh;
 }
 .projects-container li:nth-of-type(3)::after {
-  background-image: url("https://s1.ax1x.com/2020/08/13/dpDOPg.gif"/*tpa=https://xcbk.ga/img/img-3-small.jpg*/);
+  background-image: url("../img/img-3-small.jpg"/*tpa=http://c.kankanvip.cn/img/img-3-small.jpg*/);
 }
 .projects-container li:nth-of-type(3)::before {
-  content: 'https://s1.ax1x.com/2020/08/13/dpDOPg.gif';
+  content: 'img/img-3-small.jpg';
 }
 .projects-container li:nth-of-type(4) {
   top: 75vh;
 }
 .projects-container li:nth-of-type(4)::after {
-  background-image: url("https://s1.ax1x.com/2020/08/13/dpDXGQ.gif"/*tpa=https://xcbk.ga/img/img-4-small.jpg*/);
+  background-image: url("../img/img-4-small.jpg"/*tpa=http://c.kankanvip.cn/img/img-4-small.jpg*/);
 }
 .projects-container li:nth-of-type(4)::before {
-  content: 'https://s1.ax1x.com/2020/08/13/dpDXGQ.gif';
+  content: 'img/img-4-small.jpg';
 }
 .projects-container li.is-loaded {
   /* move items in the viewport when background images have been loaded */
@@ -147,40 +147,40 @@ Main Components
     transition: width 0s;
   }
   .projects-container li:first-of-type::before {
-    content: 'https://s1.ax1x.com/2020/08/03/aUlnLF.jpg';
+    content: 'https://s1.ax1x.com/2020/08/15/dkVkAP.jpg';
   }
   .projects-container li:first-of-type::after {
-    background-image: url("https://s1.ax1x.com/2020/08/03/aUlnLF.jpg"/*tpa=https://xcbk.ga/img/img-1-large.jpg*/);
+    background-image: url("https://s1.ax1x.com/2020/08/15/dkVkAP.jpg"/*tpa=http://c.kankanvip.cn/img/img-1-large.jpg*/);
   }
   .projects-container li:nth-of-type(2) {
     top: 0;
     left: 25vw;
   }
   .projects-container li:nth-of-type(2)::before {
-    content: 'https://s1.ax1x.com/2020/08/03/aUlnLF.jpg';
+    content: 'https://s1.ax1x.com/2020/08/15/dkVkAP.jpg';
   }
   .projects-container li:nth-of-type(2)::after {
-    background-image: url("https://s1.ax1x.com/2020/08/03/aUlnLF.jpg"/*tpa=https://xcbk.ga/img/img-2-large.jpg*/);
+    background-image: url("https://s1.ax1x.com/2020/08/15/dkVkAP.jpg"/*tpa=http://c.kankanvip.cn/img/img-2-large.jpg*/);
   }
   .projects-container li:nth-of-type(3) {
     top: 0;
     left: 50vw;
   }
   .projects-container li:nth-of-type(3)::before {
-    content: 'https://s1.ax1x.com/2020/08/03/aUlnLF.jpg';
+    content: 'https://s1.ax1x.com/2020/08/15/dkVkAP.jpg';
   }
   .projects-container li:nth-of-type(3)::after {
-    background-image: url("https://s1.ax1x.com/2020/08/03/aUlnLF.jpg"/*tpa=https://xcbk.ga/img/img-3-large.jpg*/);
+    background-image: url("https://s1.ax1x.com/2020/08/15/dkVkAP.jpg"/*tpa=http://c.kankanvip.cn/img/img-3-large.jpg*/);
   }
   .projects-container li:nth-of-type(4) {
     top: 0;
     left: 75vw;
   }
   .projects-container li:nth-of-type(4)::before {
-    content: 'https://s1.ax1x.com/2020/08/03/aUlnLF.jpg';
+    content: 'https://s1.ax1x.com/2020/08/15/dkVkAP.jpg';
   }
   .projects-container li:nth-of-type(4)::after {
-    background-image: url("https://s1.ax1x.com/2020/08/03/aUlnLF.jpg"/*tpa=https://xcbk.ga/img/img-4-large.jpg*/);
+    background-image: url("https://s1.ax1x.com/2020/08/15/dkVkAP.jpg"/*tpa=http://c.kankanvip.cn/img/img-4-large.jpg*/);
   }
   .projects-container li::after {
     height: 100vh;
@@ -354,7 +354,7 @@ Main Components
   position: fixed;
   top: 30px;
   right: 5%;
-  background: url("../img/cd-icon-close-mobile.svg"/*tpa=https://xcbk.ga/img/cd-icon-close-mobile.svg*/) no-repeat center center;
+  background: url("../img/cd-icon-close-mobile.svg"/*tpa=http://c.kankanvip.cn/img/cd-icon-close-mobile.svg*/) no-repeat center center;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -363,7 +363,7 @@ Main Components
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-close {
-    background-image: url("../img/cd-icon-close-desktop.svg"/*tpa=https://xcbk.ga/img/cd-icon-close-desktop.svg*/);
+    background-image: url("../img/cd-icon-close-desktop.svg"/*tpa=http://c.kankanvip.cn/img/cd-icon-close-desktop.svg*/);
   }
 }
 
@@ -376,11 +376,11 @@ Main Components
   -ms-transform: translateX(-50%) scale(0);
   -o-transform: translateX(-50%) scale(0);
   transform: translateX(-50%) scale(0);
-  background: url("../img/cd-icon-arrow-mobile.svg"/*tpa=https://xcbk.ga/img/cd-icon-arrow-mobile.svg*/) no-repeat center center;
+  background: url("../img/cd-icon-arrow-mobile.svg"/*tpa=http://c.kankanvip.cn/img/cd-icon-arrow-mobile.svg*/) no-repeat center center;
 }
 @media only screen and (min-width: 1170px) {
   .projects-container .cd-scroll {
-    background-image: url("../img/cd-icon-arrow-desktop.svg"/*tpa=https://xcbk.ga/img/cd-icon-arrow-desktop.svg*/);
+    background-image: url("../img/cd-icon-arrow-desktop.svg"/*tpa=http://c.kankanvip.cn/img/cd-icon-arrow-desktop.svg*/);
   }
 }
 
