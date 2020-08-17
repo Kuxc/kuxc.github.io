@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>关于本博客</title>
-    <url>/post/4a17b156.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
-
-<p>By xiaochen</p>
-<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">作者坐标</button></li><li class="tab"><button type="button" data-href="#test3-2">研究方向</button></li><li class="tab"><button type="button" data-href="#test3-3">关于作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>From guangdong,China</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>网络安全.</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#x38;&#56;&#54;&#x37;&#53;&#56;&#x34;&#56;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#x6d;">&#x34;&#x38;&#56;&#54;&#x37;&#53;&#56;&#x34;&#56;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#x6d;</a></strong></p>
-<p><a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> | <a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
-
-<hr>]]></content>
-  </entry>
-  <entry>
-    <title>爱安全无线WLAN攻防教程</title>
+    <title>爱安全-价值1800的无线WLAN攻防教程</title>
     <url>/post/d0056290.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>
 ]]></content>
@@ -22,6 +11,18 @@
       <tags>
         <tag>网安学习资源</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于本博客</title>
+    <url>/post/4a17b156.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
+
+<p>By xiaochen</p>
+<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">联系作者</button></li><li class="tab"><button type="button" data-href="#test3-2">博客内容</button></li><li class="tab"><button type="button" data-href="#test3-3">关于作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#52;&#56;&#56;&#54;&#x37;&#x35;&#x38;&#x34;&#x38;&#x40;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#x6d;">&#52;&#56;&#56;&#54;&#x37;&#x35;&#x38;&#x34;&#x38;&#x40;&#x71;&#x71;&#x2e;&#x63;&#x6f;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>分享网络安全学习资料，笔记.</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p>其他博客地址</p>
+<p><a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> </p>
+<p>文章内容同步：<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>]]></content>
   </entry>
   <entry>
     <title>信息收集之nmap</title>
@@ -47,6 +48,22 @@
       </categories>
       <tags>
         <tag>信息收集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无线攻击之aircrack-ng破解无线密码</title>
+    <url>/post/19ad867.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h1><ul>
+<li>环境准备</li>
+<li></li>
+</ul>
+<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><p>准备USB无线网卡</p>
+]]></content>
+      <categories>
+        <category>渗透测试</category>
+      </categories>
+      <tags>
+        <tag>破解WiFi</tag>
       </tags>
   </entry>
   <entry>
@@ -107,10 +124,5 @@
       <tags>
         <tag>渗透测试</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>无线攻击之aircrack-ng破解无线密码</title>
-    <url>/post/19ad867.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
   </entry>
 </search>
