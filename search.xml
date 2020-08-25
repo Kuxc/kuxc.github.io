@@ -103,13 +103,12 @@
 <p>Linux宝塔面板测试版本 7.5.14</p>
 <p>Windows宝塔面板：6.8</p>
 <h1 id="修复建议"><a href="#修复建议" class="headerlink" title="修复建议"></a>修复建议</h1><ul>
-<li><p>更新宝塔面板为最新版本</p>
-</li>
-<li><p>禁用888端口</p>
-</li>
-<li><p>修改pma路径</p>
-</li>
+<li>更新宝塔面板为最新版本</li>
+<li>禁用888端口</li>
+<li>修改pma路径</li>
 </ul>
+<h1 id="漏洞验证方式"><a href="#漏洞验证方式" class="headerlink" title="漏洞验证方式"></a>漏洞验证方式</h1><p><a href="http://ip:888/pma">http://ip:888/pma</a> 无需授权直接进入数据库</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/25/dgBCCj.png"></p>
 ]]></content>
       <categories>
         <category>漏洞公布</category>
