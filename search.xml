@@ -283,13 +283,29 @@
 <li>使用anonymous用户+123（任意密码）登录成功</li>
 </ul>
 <p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/25/dcuUFe.png"></p>
-<h1 id="后门漏洞"><a href="#后门漏洞" class="headerlink" title="后门漏洞"></a>后门漏洞</h1><p>FTP后门漏洞也称：笑脸漏洞</p>
-<h2 id="vsftpd2-3-4"><a href="#vsftpd2-3-4" class="headerlink" title="vsftpd2.3.4"></a>vsftpd2.3.4</h2><p>影响版本：vsftpd2.3.4</p>
-<p>手工触发漏洞：当进行ftp认证时，如果用户名中包含笑脸 <u>：）</u>，那么直接就触发监听6200端口的连接shell。</p>
+<h1 id="0x02-后门漏洞"><a href="#0x02-后门漏洞" class="headerlink" title="0x02 后门漏洞"></a>0x02 后门漏洞</h1><p>FTP后门漏洞也称：笑脸漏洞</p>
+<h2 id="vsftpd2-3-4"><a href="#vsftpd2-3-4" class="headerlink" title="vsftpd2.3.4"></a>vsftpd2.3.4</h2><p>笑脸漏洞影响版本：vsftpd2.3.4</p>
 <ol>
-<li>首先用nmap脚本扫描目标</li>
+<li>首先用nmap脚本扫描目标21号端口漏洞</li>
 </ol>
 <p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/25/dcRB3F.png"></p>
+<ol start="2">
+<li>漏洞利用方式</li>
+</ol>
+<ul>
+<li>手工触发：当ftp验证时，攻击者登录输入用户名后加笑脸，（密码任意输）后触发6200端口获得shell</li>
+</ul>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/26/dRnXHP.png"></p>
+<p>连接目标6200端口</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/26/dRu0KA.png"></p>
+<ul>
+<li>利用msf脚本触发</li>
+</ul>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/26/dRJJa9.png"></p>
+<h1 id="0x03-漏洞修复建议"><a href="#0x03-漏洞修复建议" class="headerlink" title="0x03 漏洞修复建议"></a>0x03 漏洞修复建议</h1><ol>
+<li>修改配置文件（vsftpd.conf）禁止匿名用户登录</li>
+<li>对特定漏洞进行打补丁，开启防火墙禁止连接6200端口</li>
+</ol>
 ]]></content>
       <categories>
         <category>漏洞利用</category>
