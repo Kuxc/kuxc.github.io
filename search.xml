@@ -101,6 +101,11 @@
       </tags>
   </entry>
   <entry>
+    <title>Win10漏洞&quot;永恒之黑&quot; Getshell</title>
+    <url>/post/a0575700/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
     <title>爱安全-价值1800的无线WLAN攻防教程</title>
     <url>/post/d0056290/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>
@@ -111,24 +116,6 @@
       <tags>
         <tag>网安学习资源</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Win10漏洞&quot;永恒之黑&quot; Getshell</title>
-    <url>/post/a0575700/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-  </entry>
-  <entry>
-    <title>关于本博客</title>
-    <url>/post/4a17b156/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
-
-<p>By xiaochen</p>
-<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
-<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
-<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
-<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#x38;&#56;&#54;&#55;&#x35;&#56;&#x34;&#x38;&#x40;&#113;&#113;&#x2e;&#99;&#111;&#x6d;">&#x34;&#x38;&#56;&#54;&#55;&#x35;&#56;&#x34;&#x38;&#x40;&#113;&#113;&#x2e;&#99;&#111;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
-
-<hr>]]></content>
   </entry>
   <entry>
     <title>信息收集之nmap</title>
@@ -155,6 +142,19 @@
       <tags>
         <tag>信息收集</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于本博客</title>
+    <url>/post/4a17b156/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
+
+<p>By xiaochen</p>
+<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
+<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
+<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
+<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#x38;&#x38;&#x36;&#55;&#53;&#56;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;">&#x34;&#x38;&#x38;&#x36;&#55;&#53;&#56;&#52;&#56;&#x40;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>]]></content>
   </entry>
   <entry>
     <title>宝塔面板紧急安全更新</title>
@@ -202,19 +202,22 @@
     <url>/post/83dcefb7/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>信息收集对于渗透测试前期来说是非常重要的，信息收集分为两种，主动与被动。</p>
 <ul>
-<li>主动信息收集：通过直接访问，扫描网站，这种流量经过网站的行为，比如nmap</li>
+<li>主动信息收集：通过直接访问，扫描网站，这种流量经过网站的行为，比如nmap，</li>
 <li>被动信息收集：通过第三方服务对目标进行访问了解，比如Google hack</li>
 </ul>
-<h1 id="将域名解析为IP地址"><a href="#将域名解析为IP地址" class="headerlink" title="将域名解析为IP地址"></a>将域名解析为IP地址</h1><p>ping命令用于探测网络连通性，同时也可以查看目标IP地址 这里以baidu为例</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/23/d0p23q.png"></p>
-<h1 id="dns信息收集"><a href="#dns信息收集" class="headerlink" title="dns信息收集"></a>dns信息收集</h1><ul>
+<h1 id="判断域名对应IP"><a href="#判断域名对应IP" class="headerlink" title="判断域名对应IP"></a>判断域名对应IP</h1><ul>
+<li>最简单的使用ping，ping命令用于探测网络连通性，同时也可以查看目标IP地址.</li>
+<li>如该域名存在CDN可使用nslookup查询</li>
+</ul>
+<h1 id="DNS信息收集"><a href="#DNS信息收集" class="headerlink" title="DNS信息收集"></a>DNS信息收集</h1><ul>
 <li>nslookup 用于查询DNS的记录，查询域名解析是否正常，在出现网络故障时用了判断网络是否正常</li>
 </ul>
 <p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/23/d0C4k4.png"></p>
 <ul>
-<li>如ping，nslookup查询不到想要的信息，则可使用dig 查询</li>
+<li><p>Dig是一款查询DNS查询工具</p>
+<p>用法 dig <a href="http://www.kuxc.top/">www.kuxc.top</a></p>
+</li>
 </ul>
-<p>用法： dig 域名</p>
 <p>常用的参数@&lt;dns服务器地址&gt;：进行域名解析的域名服务器</p>
 <p>any 查询所有类型的域名记录，默认只显示A记录</p>
 <p>-x 反向查询 IP反查域名</p>
@@ -234,17 +237,18 @@
 <p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/23/d02Pkd.png"></p>
 <p>站长之家：<a href="http://icp.chinaz.com/">http://icp.chinaz.com/</a></p>
 <p>天眼查：<a href="https://www.tianyancha.com/">https://www.tianyancha.com/</a></p>
-<p>传送门 <a class="btn-beautify button--animated " href="/post/96512c85/" 
-  title="Nmap"><i class="far fa-hand-point-right fa-fw"></i><span>Nmap</span></a></p>
 </li>
 </ol>
 <h1 id="子域名收集"><a href="#子域名收集" class="headerlink" title="子域名收集"></a>子域名收集</h1><ol>
 <li>使用Maltego子域名收集工具</li>
 <li>使用<a class="btn-beautify button--animated " href="/post/26e13bb5/" 
   title="Google Hack"><i class="far fa-hand-point-right fa-fw"></i><span>Google Hack</span></a></li>
-<li>使用第三方 如站长之家</li>
-<li>使用sho</li>
+<li>使用第三方 如站长之家<a href="http://tool.chinaz.com/">http://tool.chinaz.com/</a></li>
+<li>利用搜索引擎搜索 比如Shodan，Google</li>
 </ol>
+<h1 id="服务器端口探测"><a href="#服务器端口探测" class="headerlink" title="服务器端口探测"></a>服务器端口探测</h1><p>常用的端口探测工具nmap</p>
+<p>   传送门 <a class="btn-beautify button--animated " href="/post/96512c85/" 
+  title="Nmap"><i class="far fa-hand-point-right fa-fw"></i><span>Nmap</span></a></p>
 ]]></content>
       <categories>
         <category>渗透测试</category>
