@@ -101,17 +101,6 @@
       </tags>
   </entry>
   <entry>
-    <title>记一次复制门禁卡过程</title>
-    <url>/post/39581507/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>因为小区的门禁卡太大 不方便携带，就决定多复制几张方便携带的钥匙扣，记录一下该过程。</p>
-<h1 id="制作过程中了解到的常识"><a href="#制作过程中了解到的常识" class="headerlink" title="制作过程中了解到的常识"></a>制作过程中了解到的常识</h1><p>第一步先分辨自己的卡是什么类型</p>
-<p>- </p>
-]]></content>
-      <tags>
-        <tag>nfc</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2020 VMware16 15 14 13 12 11 10下载激活</title>
     <url>/post/133edefe/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="VMware-Workstation-Pro-16"><a href="#VMware-Workstation-Pro-16" class="headerlink" title="VMware Workstation Pro 16"></a>VMware Workstation Pro 16</h1><blockquote>
@@ -353,6 +342,24 @@
       </categories>
       <tags>
         <tag>破解WiFi</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>everything 信息泄露</title>
+    <url>/post/39581507/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="everything"><a href="#everything" class="headerlink" title="everything"></a>everything</h1><p>用于快速搜索文件，文件夹。</p>
+<h1 id="信息泄露"><a href="#信息泄露" class="headerlink" title="信息泄露"></a>信息泄露</h1><p>当电脑处在公网IP，everything HTTP服务配置不当时导致信息泄露。配置不当指http服务器未设置密码等。<br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03vtSJ.png" alt="imgname"></p>
+<h1 id="Google语法"><a href="#Google语法" class="headerlink" title="Google语法"></a>Google语法</h1><p>allintitle: Everything C:\Windows<br>inurl:Diagnostics/index<br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xXgH.png" alt="imgname"><br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xzDI.png" alt="03xzDI.png"><br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xxKA.png" alt="03xxKA.png"></p>
+<h1 id="安全配置"><a href="#安全配置" class="headerlink" title="安全配置"></a>安全配置</h1><ol>
+<li>关闭http服务</li>
+<li>更换较为复杂账号密码及端口</li>
+</ol>
+]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>信息泄露</tag>
       </tags>
   </entry>
 </search>
